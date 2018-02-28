@@ -9,5 +9,3 @@ Known Issues:
 Scoll functionality missing
 
 This project uses Jquery Terminal for the core console functionality along with Bootstrap for CSS and HTML formatting.
-
-Note: Currently this repo is does not contain code used until I am authorized to publish.
