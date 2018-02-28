@@ -6,7 +6,7 @@ Built in a user can search for exploits/topis on anything regarding their tags. 
 If a user desides they do not wish to view through a terminal they may use the built in web menu which contains the same information as the temrinal sorted in the same format for ease of use.
 
 Known Issues:
-Scoll functionality missing
+Scroll functionality missing
 
 This project uses Jquery Terminal for the core console functionality along with Bootstrap for CSS and HTML formatting.
 
