@@ -4,8 +4,8 @@
       "Tags": [
         "Social Engineering"
       ],
-      "Description": "Phishing is the criminally fraudulent process of attempting to acquire sensitive information such\nas usernames, passwords, and credit card details by masquerading as\na trustworthy entity in an electronic communication.",
-      "Description_HTML": "<p>Phishing is the criminally fraudulent process of attempting to acquire sensitive information such as usernames, passwords, and credit card details by masquerading as a trustworthy entity in an electronic communication.</p>"
+      "Description": "Phishing is the criminally fraudulent process of attempting to acquire sensitive information such\nas usernames, passwords, and credit card details by masquerading as\na trustworthy entity in an electronic communication.For more info, check out gophish.",
+      "Description_HTML": "<p>Phishing is the criminally fraudulent process of attempting to acquire sensitive information such as usernames, passwords, and credit card details by masquerading as a trustworthy entity in an electronic communication.For more info, check out gophish.</p>"
     },
 	{
       "Name": "Elicitation",
